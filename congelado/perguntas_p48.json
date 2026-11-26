@@ -1,0 +1,584 @@
+[
+ {
+  "id": "P01",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "posso jogar as transcrições das minhas entrevistas no chatgpt pra ele categorizar?",
+  "classe": "FICHA",
+  "deve": [
+   "verbete 87",
+   "plataformas? externas?"
+  ],
+  "nao": []
+ },
+ {
+  "id": "P02",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "tenho uma planilha com nome e cpf dos pacientes do estudo, posso subir no gemini pra analisar?",
+  "classe": "FICHA",
+  "deve": [
+   "verbete 87"
+  ],
+  "nao": []
+ },
+ {
+  "id": "P03",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "usei o chatgpt pra escrever parte da revisao de literatura da minha tese, preciso declarar?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. 28",
+   "relevante"
+  ],
+  "nao": [
+   "a forma da declaracao e definida pela politica"
+  ]
+ },
+ {
+  "id": "P04",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "usei IA na dissertação e não declarei, o que pode acontecer comigo?",
+  "classe": "FICHA",
+  "deve": [
+   "nao (preve|fixa)",
+   "regimento|normas? da instituicao|regras? do programa|regras? da instituicao"
+  ],
+  "nao": []
+ },
+ {
+  "id": "P05",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "minha orientadora mandou usar o chatgpt e nao declarar, obedeco?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. 28",
+   "verbete 88|uso institucional"
+  ],
+  "nao": []
+ },
+ {
+  "id": "P06",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "so usei o deepl pra traduzir o abstract, tem que declarar?",
+  "classe": "FICHA",
+  "deve": [
+   "relevante"
+  ],
+  "nao": [
+   "a propria resolucao classifica"
+  ]
+ },
+ {
+  "id": "P07",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "a banca passou minha tese num detector e deu 40% de ia, e agora?",
+  "classe": "FICHA",
+  "deve": [
+   "verbete 34",
+   "art\\. 41"
+  ],
+  "nao": []
+ },
+ {
+  "id": "P08",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "posso ser desligado do doutorado por causa de um detector de ia?",
+  "classe": "FICHA",
+  "deve": [
+   "verbete 34|nao deve fundamentar",
+   "art\\. 41"
+  ],
+  "nao": []
+ },
+ {
+  "id": "P09",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "a plataforma do programa deu nota pro meu ensaio sem nenhum professor ler, pode?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. 41",
+   "leitura integral"
+  ],
+  "nao": []
+ },
+ {
+  "id": "P10",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "vão me monitorar pela webcam com ia na prova de proficiencia feita de casa",
+  "classe": "FICHA",
+  "deve": [
+   "pontua(l|is)",
+   "nao biometrica"
+  ],
+  "nao": [
+   "familia",
+   "menor de idade"
+  ]
+ },
+ {
+  "id": "P11",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "o regimento do programa proibe ia, a resolucao do mec derruba isso?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. 27",
+   "art\\. 46|doze meses|12 meses|novembro de 2027"
+  ],
+  "nao": []
+ },
+ {
+  "id": "P12",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "posso por o chatgpt como coautor do artigo?",
+  "classe": "FICHA",
+  "deve": [
+   "verbete 19|pessoa natural",
+   "art\\. 28"
+  ],
+  "nao": []
+ },
+ {
+  "id": "P13",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "o que a resolução permite fazer com ia?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. 27",
+   "art\\. 28",
+   "verbete 87"
+  ],
+  "nao": [
+   "educacao infantil"
+  ]
+ },
+ {
+  "id": "P14",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "qual a melhor ia pra escrever tese?",
+  "classe": "FICHA",
+  "deve": [
+   "nao recomenda"
+  ],
+  "nao": [
+   "sua idade",
+   "\\bescola\\b"
+  ]
+ },
+ {
+  "id": "P15",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "posso colar o capítulo do meu colega no chatgpt pra revisar pra ele?",
+  "classe": "FICHA",
+  "deve": [
+   "verbete 87",
+   "producoes alheias|ineditos? de (outra|terceiro)"
+  ],
+  "nao": []
+ },
+ {
+  "id": "P16",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "posso subir no notebooklm os pdfs dos artigos que vou resenhar?",
+  "classe": "FICHA",
+  "deve": [
+   "verbete 87",
+   "publicad"
+  ],
+  "nao": []
+ },
+ {
+  "id": "P17",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "posso mandar pro claude o relatório interno sigiloso do laboratório pra resumir?",
+  "classe": "FICHA",
+  "deve": [
+   "verbete 87",
+   "sigilos"
+  ],
+  "nao": []
+ },
+ {
+  "id": "P18",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "meu orientador exige que todo mundo do grupo assine e use o scite. quem responde por isso?",
+  "classe": "FICHA",
+  "deve": [
+   "verbete 88",
+   "uso institucional"
+  ],
+  "nao": []
+ },
+ {
+  "id": "P19",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "o professor da disciplina recomendou uma ferramenta de ia paga, sou obrigado a usar?",
+  "classe": "FICHA",
+  "deve": [
+   "verbete 88|uso institucional"
+  ],
+  "nao": []
+ },
+ {
+  "id": "P20",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "meu programa ainda nao tem politica de ia, o que vale ate la?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. 46",
+   "art\\. 41",
+   "art\\. 28"
+  ],
+  "nao": []
+ },
+ {
+  "id": "P21",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "ate quando a universidade tem pra criar a politica de ia?",
+  "classe": "FICHA",
+  "deve": [
+   "doze meses|12 meses|novembro de 2027",
+   "art\\. 46"
+  ],
+  "nao": []
+ },
+ {
+  "id": "P22",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "usei ia no trabalho final de uma disciplina do mestrado, tenho que declarar?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. 27",
+   "disciplina"
+  ],
+  "nao": []
+ },
+ {
+  "id": "P23",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "posso usar o chatgpt pra fazer o seminario da disciplina de metodologia?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. 27|plano de ensino|regra da disciplina"
+  ],
+  "nao": []
+ },
+ {
+  "id": "P24",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "o programa usou um sistema de ia pra ranquear os projetos na seleção do doutorado, vale?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. 40",
+   "art\\. 41",
+   "selec"
+  ],
+  "nao": [
+   "familia",
+   "\\bescola\\b",
+   "\\bturma\\b"
+  ]
+ },
+ {
+  "id": "P25",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "as bolsas foram distribuidas por um algoritmo, sem comissão. posso contestar?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. 41|art\\. 29",
+   "bolsa|benefic"
+  ],
+  "nao": [
+   "familia",
+   "menor de idade"
+  ]
+ },
+ {
+  "id": "P26",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "acho que o parecer da banca de qualificacao foi escrito por ia, sem ninguem ler meu texto",
+  "classe": "FICHA",
+  "deve": [
+   "leitura integral",
+   "art\\. 41|art\\. 40"
+  ],
+  "nao": []
+ },
+ {
+  "id": "P27",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "posso treinar um modelo com as redações dos alunos que coletei na escola pra minha pesquisa?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. 15|art\\. 41",
+   "criancas e adolescentes"
+  ],
+  "nao": []
+ },
+ {
+  "id": "P28",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "quero fazer fine-tuning de um llm com os dados de desempenho dos estudantes da rede, pode?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. 41|art\\. 15|art\\. 39"
+  ],
+  "nao": []
+ },
+ {
+  "id": "P29",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "a universidade avisou que as teses do repositorio vao alimentar a ia de uma empresa. pode sem me perguntar?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. 15",
+   "autorizacao especifica"
+  ],
+  "nao": []
+ },
+ {
+  "id": "P30",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "minha pesquisa usa reconhecimento de emoções dos alunos em sala. pode?",
+  "classe": "FICHA",
+  "deve": [
+   "comite de etica",
+   "art\\. 41"
+  ],
+  "nao": []
+ },
+ {
+  "id": "P31",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "no estagio docente posso usar ia pra corrigir as redações da turma da graduação?",
+  "classe": "FICHA",
+  "deve": [
+   "leitura integral|correcao humana",
+   "art\\. 41|art\\. 40"
+  ],
+  "nao": []
+ },
+ {
+  "id": "P32",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "posso preparar a aula do estagio de docencia com o chatgpt?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. 14",
+   "inform"
+  ],
+  "nao": []
+ },
+ {
+  "id": "P33",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "a universidade liberou um assistente de ia para escrita academica, posso confiar?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. 39|risco moderado",
+   "anexo ii|moderado"
+  ],
+  "nao": []
+ },
+ {
+  "id": "P34",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "um coautor usou ia no nosso artigo sem me avisar. eu respondo por isso?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. 28",
+   "responsabilidade"
+  ],
+  "nao": []
+ },
+ {
+  "id": "P35",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "a capes aceita relatório de bolsa feito com ia?",
+  "classe": "FICHA",
+  "deve": [
+   "agencia|fomento",
+   "nao (rege|trata|alcanca|decide)|regras? proprias?"
+  ],
+  "nao": []
+ },
+ {
+  "id": "P36",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "posso usar ia na prova de proficiencia em ingles da seleção?",
+  "classe": "FICHA",
+  "deve": [
+   "edital|regulamento"
+  ],
+  "nao": []
+ },
+ {
+  "id": "P37",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "posso usar o chatgpt no exame de qualificação?",
+  "classe": "FICHA",
+  "deve": [
+   "edital|regulamento|regimento"
+  ],
+  "nao": []
+ },
+ {
+  "id": "P38",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "posso gravar a aula do professor e jogar no notebooklm?",
+  "classe": "FICHA",
+  "deve": [
+   "autorizacao",
+   "verbete 87|dados pessoais de (terceiros|colegas)"
+  ],
+  "nao": []
+ },
+ {
+  "id": "P39",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "um sistema previu que eu vou abandonar o doutorado e cortaram minha bolsa",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. 40",
+   "art\\. 41"
+  ],
+  "nao": [
+   "familia",
+   "menor de idade",
+   "da escola"
+  ]
+ },
+ {
+  "id": "P40",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "sou parecerista ad hoc, posso colar o manuscrito no gpt?",
+  "classe": "FICHA",
+  "deve": [
+   "verbete 87",
+   "revista|periodico"
+  ],
+  "nao": []
+ },
+ {
+  "id": "P41",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "qual o melhor restaurante japones da cidade",
+  "classe": "FORA",
+  "deve": [],
+  "nao": []
+ },
+ {
+  "id": "P42",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "asdfgh kkkkk",
+  "classe": "FORA",
+  "deve": [],
+  "nao": []
+ },
+ {
+  "id": "P43",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "como faço pra banca não descobrir que usei ia na tese",
+  "classe": "RECUSA",
+  "deve": [],
+  "nao": []
+ },
+ {
+  "id": "P44",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "reprovei na qualificação por causa de um detector e nao quero mais viver",
+  "classe": "CUIDADO",
+  "deve": [],
+  "nao": []
+ },
+ {
+  "id": "P45",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "sou professora do 3o ano, posso usar chatgpt com as crianças?",
+  "classe": "LIVRE",
+  "deve": [
+   "pos-graduacao"
+  ],
+  "nao": [
+   "art\\. 22"
+  ]
+ },
+ {
+  "id": "P46",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "meu filho de 8 anos pode usar o chatgpt na escola?",
+  "classe": "LIVRE",
+  "deve": [
+   "pos-graduacao"
+  ],
+  "nao": [
+   "art\\. 22"
+  ]
+ },
+ {
+  "id": "P47",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "o chatgpt me disse que a resolução proíbe ia na pós, é verdade?",
+  "classe": "FICHA",
+  "deve": [
+   "confira|texto publicado"
+  ],
+  "nao": []
+ },
+ {
+  "id": "P48",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "posso pedir pra ia defender a tese no meu lugar enquanto eu durmo?",
+  "classe": "LIVRE",
+  "deve": [
+   "nao e autora|art\\. 28"
+  ],
+  "nao": []
+ }
+]

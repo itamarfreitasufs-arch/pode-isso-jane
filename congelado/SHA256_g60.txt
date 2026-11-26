@@ -1,0 +1,2 @@
+fcce71a9219ed09229adc8efe2fd185a716fdf0dc224e0403407e3fd0dab2b77   perguntas_g60.json
+Wed Nov 25 14:08:05 UTC 2026

@@ -1,0 +1,6 @@
+exec/
+dist/norma.sqlite
+__pycache__/
+*.pyc
+servidor/contagem/*.json
+servidor/contagem/chave.txt

@@ -1,0 +1,1130 @@
+[
+ {
+  "id": "B01",
+  "perfil": "profBasico",
+  "antigo": "docenteFundamental",
+  "tipo": "",
+  "q": "dou aula pro 3 ano, posso botar a turma pra conversar com o chatgpt comigo junto?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. 22"
+  ],
+  "nao": []
+ },
+ {
+  "id": "B02",
+  "perfil": "profBasico",
+  "antigo": "docenteFundamental",
+  "tipo": "",
+  "q": "posso usar ia pra planejar minhas aulas do 2 ano?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. (22|38|14)"
+  ],
+  "nao": []
+ },
+ {
+  "id": "B03",
+  "perfil": "profBasico",
+  "antigo": "docenteFundamental",
+  "tipo": "",
+  "q": "minha turma é de 7 ano, eles podem usar o gemini na aula de ciencias?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. 23"
+  ],
+  "nao": []
+ },
+ {
+  "id": "B04",
+  "perfil": "profBasico",
+  "antigo": "docenteFundamental",
+  "tipo": "",
+  "q": "posso passar tarefa de casa pro 8 ano pedindo pra usar o chatgpt?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. 23"
+  ],
+  "nao": []
+ },
+ {
+  "id": "B05",
+  "perfil": "profBasico",
+  "antigo": "docenteMedio",
+  "tipo": "",
+  "q": "leciono no ensino medio, posso pedir que os alunos usem ia numa pesquisa?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. 20"
+  ],
+  "nao": []
+ },
+ {
+  "id": "B06",
+  "perfil": "profBasico",
+  "antigo": "docenteFundamental",
+  "tipo": "",
+  "q": "sou professora de educação infantil, posso mostrar um robô que conversa pras crianças?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. 21"
+  ],
+  "nao": []
+ },
+ {
+  "id": "B07",
+  "perfil": "profBasico",
+  "antigo": "docenteFundamental",
+  "tipo": "",
+  "q": "posso usar ia pra montar o planejamento da creche?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. 21"
+  ],
+  "nao": []
+ },
+ {
+  "id": "B08",
+  "perfil": "profBasico",
+  "antigo": "docenteMedio",
+  "tipo": "",
+  "q": "usei ia pra fazer a prova bimestral, preciso contar pros alunos?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. 14"
+  ],
+  "nao": []
+ },
+ {
+  "id": "B09",
+  "perfil": "profBasico",
+  "antigo": "docenteFundamental",
+  "tipo": "",
+  "q": "posso usar o chatgpt pra corrigir as redações do 9 ano?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. (40|41)"
+  ],
+  "nao": []
+ },
+ {
+  "id": "B10",
+  "perfil": "profBasico",
+  "antigo": "docenteMedio",
+  "tipo": "",
+  "q": "a plataforma da rede corrige a prova de multipla escolha e já lança a nota sozinha, tá certo?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. 40"
+  ],
+  "nao": []
+ },
+ {
+  "id": "B11",
+  "perfil": "profBasico",
+  "antigo": "docenteMedio",
+  "tipo": "",
+  "q": "tenho 400 redações, posso só conferir as notas que a ia deu e assinar?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. 40"
+  ],
+  "nao": []
+ },
+ {
+  "id": "B12",
+  "perfil": "profBasico",
+  "antigo": "docenteMedio",
+  "tipo": "",
+  "q": "acho que meu aluno fez o trabalho no chatgpt, o que eu faço?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. 41"
+  ],
+  "nao": []
+ },
+ {
+  "id": "B13",
+  "perfil": "profBasico",
+  "antigo": "docenteMedio",
+  "tipo": "",
+  "q": "o detector deu 90% de ia na redação, posso dar zero?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. 41"
+  ],
+  "nao": []
+ },
+ {
+  "id": "B14",
+  "perfil": "profBasico",
+  "antigo": "docenteMedio",
+  "tipo": "",
+  "q": "o aluno confessou que usou ia escondido, posso zerar?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. 40"
+  ],
+  "nao": []
+ },
+ {
+  "id": "B15",
+  "perfil": "profBasico",
+  "antigo": "docenteFundamental",
+  "tipo": "",
+  "q": "uma aluna me contou que usou ia no trabalho mas eu não tinha proibido",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. 10"
+  ],
+  "nao": []
+ },
+ {
+  "id": "B16",
+  "perfil": "profBasico",
+  "antigo": "docenteMedio",
+  "tipo": "",
+  "q": "sou obrigado a aceitar trabalho feito com ia?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. (20|23|10)"
+  ],
+  "nao": []
+ },
+ {
+  "id": "B17",
+  "perfil": "profBasico",
+  "antigo": "docenteMedio",
+  "tipo": "",
+  "q": "meus alunos usam ia pra tudo, proíbo ou libero?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. (20|1o)"
+  ],
+  "nao": []
+ },
+ {
+  "id": "B18",
+  "perfil": "profBasico",
+  "antigo": "docenteMedio",
+  "tipo": "",
+  "q": "como aviso a turma do que pode e do que não pode com ia?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. 13"
+  ],
+  "nao": []
+ },
+ {
+  "id": "B19",
+  "perfil": "profBasico",
+  "antigo": "docenteMedio",
+  "tipo": "",
+  "q": "posso proibir totalmente ia na minha materia?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. (4o|20)"
+  ],
+  "nao": []
+ },
+ {
+  "id": "B20",
+  "perfil": "profBasico",
+  "antigo": "docenteFundamental",
+  "tipo": "",
+  "q": "posso colocar as notas e os laudos dos alunos no chatgpt pra ele escrever os pareceres?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. (10|40)|verbete 87"
+  ],
+  "nao": []
+ },
+ {
+  "id": "B21",
+  "perfil": "profBasico",
+  "antigo": "docenteFundamental",
+  "tipo": "",
+  "q": "posso subir foto da turma num app de ia pra fazer um video de fim de ano?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. (10|15)"
+  ],
+  "nao": []
+ },
+ {
+  "id": "B22",
+  "perfil": "profBasico",
+  "antigo": "docenteMedio",
+  "tipo": "",
+  "q": "a escola quer camera que avisa quando o aluno ta desatento, posso usar?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. 41"
+  ],
+  "nao": []
+ },
+ {
+  "id": "B23",
+  "perfil": "profBasico",
+  "antigo": "docenteMedio",
+  "tipo": "",
+  "q": "a chamada vai ser por reconhecimento facial, isso pode?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. 41"
+  ],
+  "nao": []
+ },
+ {
+  "id": "B24",
+  "perfil": "profBasico",
+  "antigo": "docenteMedio",
+  "tipo": "",
+  "q": "o sistema da rede diz quais alunos vão evadir, posso usar essa lista?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. 40"
+  ],
+  "nao": []
+ },
+ {
+  "id": "B25",
+  "perfil": "profBasico",
+  "antigo": "docenteFundamental",
+  "tipo": "",
+  "q": "a escola usa um app que dá pontos de comportamento e faz ranking da turma",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. 41"
+  ],
+  "nao": []
+ },
+ {
+  "id": "B26",
+  "perfil": "profBasico",
+  "antigo": "docenteFundamental",
+  "tipo": "",
+  "q": "a secretaria mandou usar uma plataforma de ia e eu não tive formação nenhuma",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. (11|4o|12)"
+  ],
+  "nao": []
+ },
+ {
+  "id": "B27",
+  "perfil": "profBasico",
+  "antigo": "docenteMedio",
+  "tipo": "",
+  "q": "a escola tem que me dar formação pra usar ia?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. 11"
+  ],
+  "nao": []
+ },
+ {
+  "id": "B28",
+  "perfil": "profBasico",
+  "antigo": "docenteMedio",
+  "tipo": "",
+  "q": "a ia vai substituir os professores? a rede quer colocar tutor de ia no lugar das aulas de reforço",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. 14"
+  ],
+  "nao": []
+ },
+ {
+  "id": "B29",
+  "perfil": "profBasico",
+  "antigo": "docenteFundamental",
+  "tipo": "",
+  "q": "se a plataforma que a escola mandou usar vazar dado de aluno a culpa é minha?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. 4o"
+  ],
+  "nao": []
+ },
+ {
+  "id": "B30",
+  "perfil": "profBasico",
+  "antigo": "docenteFundamental",
+  "tipo": "",
+  "q": "tenho um aluno cego no 4 ano, ele pode usar leitor de tela com ia?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. (22|38|36)"
+  ],
+  "nao": []
+ },
+ {
+  "id": "B31",
+  "perfil": "profBasico",
+  "antigo": "docenteMedio",
+  "tipo": "",
+  "q": "aluno com tdah pode usar ia pra organizar as tarefas?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. (36|38|39)"
+  ],
+  "nao": []
+ },
+ {
+  "id": "B32",
+  "perfil": "profBasico",
+  "antigo": "docenteFundamental",
+  "tipo": "",
+  "q": "a escola precisa ensinar sobre ia? em que materia entra?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. (18|19|20)"
+  ],
+  "nao": []
+ },
+ {
+  "id": "B33",
+  "perfil": "profBasico",
+  "antigo": "docenteMedio",
+  "tipo": "",
+  "q": "dou aula no tecnico em enfermagem, os alunos podem usar ia no laboratorio?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. (33|35)"
+  ],
+  "nao": []
+ },
+ {
+  "id": "B34",
+  "perfil": "profBasico",
+  "antigo": "docenteMedio",
+  "tipo": "",
+  "q": "os alunos que não tem celular ficam de fora da atividade com ia, o que faço?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. 18"
+  ],
+  "nao": []
+ },
+ {
+  "id": "B35",
+  "perfil": "profBasico",
+  "antigo": "docenteFundamental",
+  "tipo": "",
+  "q": "o app que a rede adotou mostra propaganda pros alunos",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. (24|16|41)"
+  ],
+  "nao": []
+ },
+ {
+  "id": "B36",
+  "perfil": "profBasico",
+  "antigo": "docenteMedio",
+  "tipo": "",
+  "q": "a empresa da plataforma quer usar as redações dos meus alunos pra treinar a ia dela",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. (15|41)"
+  ],
+  "nao": []
+ },
+ {
+  "id": "B37",
+  "perfil": "profBasico",
+  "antigo": "docenteMedio",
+  "tipo": "",
+  "q": "minhas aulas gravadas podem ser usadas pra treinar ia sem eu autorizar?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. 15"
+  ],
+  "nao": []
+ },
+ {
+  "id": "B38",
+  "perfil": "profBasico",
+  "antigo": "docenteMedio",
+  "tipo": "",
+  "q": "a direção quer um sistema que monitora se eu to dando aula direito pela camera, pode?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. (41|10)"
+  ],
+  "nao": []
+ },
+ {
+  "id": "B39",
+  "perfil": "profBasico",
+  "antigo": "docenteMedio",
+  "tipo": "",
+  "q": "até quando a escola tem que se adaptar a resolução?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. 46"
+  ],
+  "nao": []
+ },
+ {
+  "id": "B40",
+  "perfil": "profBasico",
+  "antigo": "docenteFundamental",
+  "tipo": "",
+  "q": "o chatgpt disse que a resolução proibe ia no fundamental, é verdade?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. (13|22|23)"
+  ],
+  "nao": []
+ },
+ {
+  "id": "B41",
+  "perfil": "profBasico",
+  "antigo": "docenteFundamental",
+  "tipo": "",
+  "q": "posso usar ia pra escrever os relatorios descritivos dos alunos da educação infantil?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. (21|10|14|40)"
+  ],
+  "nao": []
+ },
+ {
+  "id": "B42",
+  "perfil": "profBasico",
+  "antigo": "docenteFundamental",
+  "tipo": "",
+  "q": "posso recomendar pros pais um app de ia pra criança estudar em casa?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. (1o|18)|verbete 88"
+  ],
+  "nao": []
+ },
+ {
+  "id": "B43",
+  "perfil": "profBasico",
+  "antigo": "docenteFundamental",
+  "tipo": "",
+  "q": "o pai de um aluno reclamou que usei ia na aula sem avisar",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. (13|22)"
+  ],
+  "nao": []
+ },
+ {
+  "id": "B44",
+  "perfil": "profBasico",
+  "antigo": "docenteFundamental",
+  "tipo": "",
+  "q": "aluno do 6 ano usou ia em casa pra fazer o dever, posso descontar nota?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. (1o|10|23)|verbete 87"
+  ],
+  "nao": []
+ },
+ {
+  "id": "B45",
+  "perfil": "profBasico",
+  "antigo": "docenteMedio",
+  "tipo": "",
+  "q": "um aluno escreveu na redação que quer se matar",
+  "classe": "CUIDADO",
+  "deve": [],
+  "nao": []
+ },
+ {
+  "id": "B46",
+  "perfil": "profBasico",
+  "antigo": "docenteMedio",
+  "tipo": "",
+  "q": "qual o piso salarial do magistério?",
+  "classe": "FORA",
+  "deve": [],
+  "nao": []
+ },
+ {
+  "id": "B47",
+  "perfil": "profBasico",
+  "antigo": "docenteFundamental",
+  "tipo": "",
+  "q": "como faço bolo de cenoura",
+  "classe": "FORA",
+  "deve": [],
+  "nao": []
+ },
+ {
+  "id": "B48",
+  "perfil": "profBasico",
+  "antigo": "docenteFundamental",
+  "tipo": "",
+  "q": "posso usar ia pra fazer o plano de aula e o pei de um aluno com autismo?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. (38|40|10|14)"
+  ],
+  "nao": []
+ },
+ {
+  "id": "B49",
+  "perfil": "profBasico",
+  "antigo": "docenteFundamental",
+  "tipo": "",
+  "q": "sou profesora do 5 ano posso uzar o chatgpt com as criansa?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. 22"
+  ],
+  "nao": []
+ },
+ {
+  "id": "B50",
+  "perfil": "profBasico",
+  "antigo": "docenteMedio",
+  "tipo": "",
+  "q": "o que a resolução muda pra quem é professor de escola?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. (14|22|23|20)"
+  ],
+  "nao": []
+ },
+ {
+  "id": "S01",
+  "perfil": "profSuperior",
+  "antigo": "docenteSuperior",
+  "tipo": "",
+  "q": "sou professor de faculdade, posso pedir que os alunos usem chatgpt num trabalho?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. (25|27)"
+  ],
+  "nao": []
+ },
+ {
+  "id": "S02",
+  "perfil": "profSuperior",
+  "antigo": "docenteSuperior",
+  "tipo": "",
+  "q": "como coloco no plano de ensino o que pode e não pode de ia?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. 27"
+  ],
+  "nao": []
+ },
+ {
+  "id": "S03",
+  "perfil": "profSuperior",
+  "antigo": "docenteSuperior",
+  "tipo": "",
+  "q": "posso proibir ia na minha disciplina mesmo a universidade liberando?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. 27"
+  ],
+  "nao": []
+ },
+ {
+  "id": "S04",
+  "perfil": "profSuperior",
+  "antigo": "docenteSuperior",
+  "tipo": "",
+  "q": "a universidade não tem politica de ia ainda, o que vale na minha disciplina?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. (27|46)"
+  ],
+  "nao": []
+ },
+ {
+  "id": "S05",
+  "perfil": "profSuperior",
+  "antigo": "docenteSuperior",
+  "tipo": "",
+  "q": "sou obrigada a aceitar tcc feito com ia?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. (27|10)"
+  ],
+  "nao": []
+ },
+ {
+  "id": "S06",
+  "perfil": "profSuperior",
+  "antigo": "docenteSuperior",
+  "tipo": "",
+  "q": "posso usar ia pra corrigir as provas dissertativas?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. (40|41)"
+  ],
+  "nao": []
+ },
+ {
+  "id": "S07",
+  "perfil": "profSuperior",
+  "antigo": "docenteSuperior",
+  "tipo": "",
+  "q": "o moodle corrige o quiz e lança a nota direto, preciso validar?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. 40"
+  ],
+  "nao": []
+ },
+ {
+  "id": "S08",
+  "perfil": "profSuperior",
+  "antigo": "docenteSuperior",
+  "tipo": "",
+  "q": "posso deixar a ia dar o feedback dos relatorios sem eu ler?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. (40|14)"
+  ],
+  "nao": []
+ },
+ {
+  "id": "S09",
+  "perfil": "profSuperior",
+  "antigo": "docenteSuperior",
+  "tipo": "",
+  "q": "o turnitin acusou 80% de ia no tcc, posso reprovar?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. 41"
+  ],
+  "nao": []
+ },
+ {
+  "id": "S10",
+  "perfil": "profSuperior",
+  "antigo": "docenteSuperior",
+  "tipo": "",
+  "q": "desconfio que o aluno usou ia na prova online mas não tenho prova",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. (41|40)"
+  ],
+  "nao": []
+ },
+ {
+  "id": "S11",
+  "perfil": "profSuperior",
+  "antigo": "docenteSuperior",
+  "tipo": "",
+  "q": "o aluno admitiu que usou ia no artigo da disciplina, que punição cabe?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. (27|40)"
+  ],
+  "nao": []
+ },
+ {
+  "id": "S12",
+  "perfil": "profSuperior",
+  "antigo": "docenteSuperior",
+  "tipo": "",
+  "q": "aluno entregou trabalho com referencias que não existem",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. (10|28)"
+  ],
+  "nao": []
+ },
+ {
+  "id": "S13",
+  "perfil": "profSuperior",
+  "antigo": "docenteSuperior",
+  "tipo": "",
+  "q": "posso usar ia pra montar slides e lista de exercicios?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. (14|38)"
+  ],
+  "nao": []
+ },
+ {
+  "id": "S14",
+  "perfil": "profSuperior",
+  "antigo": "docenteSuperior",
+  "tipo": "",
+  "q": "preciso avisar os alunos que fiz a prova com ajuda de ia?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. 14"
+  ],
+  "nao": []
+ },
+ {
+  "id": "S15",
+  "perfil": "profSuperior",
+  "antigo": "docenteSuperior",
+  "tipo": "",
+  "q": "posso colocar os trabalhos dos alunos no chatgpt pra ele apontar erros?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. (15|40)|verbete 87"
+  ],
+  "nao": []
+ },
+ {
+  "id": "S16",
+  "perfil": "profSuperior",
+  "antigo": "docenteSuperior",
+  "tipo": "",
+  "q": "posso subir a planilha de notas com nome e matricula numa ia pra analisar a turma?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. (10|40|3o)|verbete 87"
+  ],
+  "nao": []
+ },
+ {
+  "id": "S17",
+  "perfil": "profSuperior",
+  "antigo": "docenteSuperior",
+  "tipo": "",
+  "q": "a faculdade vai usar proctoring com camera nas provas online",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. 40"
+  ],
+  "nao": []
+ },
+ {
+  "id": "S18",
+  "perfil": "profSuperior",
+  "antigo": "docenteSuperior",
+  "tipo": "",
+  "q": "o sistema de proctoring marca quem desvia o olhar e zera a prova sozinho",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. 41"
+  ],
+  "nao": []
+ },
+ {
+  "id": "S19",
+  "perfil": "profSuperior",
+  "antigo": "docenteSuperior",
+  "tipo": "",
+  "q": "a instituição quer usar minhas videoaulas pra treinar um tutor de ia de uma empresa",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. 15"
+  ],
+  "nao": []
+ },
+ {
+  "id": "S20",
+  "perfil": "profSuperior",
+  "antigo": "docenteSuperior",
+  "tipo": "",
+  "q": "a coordenação quer trocar os tutores do ead por um chatbot",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. 9o"
+  ],
+  "nao": []
+ },
+ {
+  "id": "S21",
+  "perfil": "profSuperior",
+  "antigo": "docenteSuperior",
+  "tipo": "",
+  "q": "posso usar um chatbot pra tirar duvida dos alunos no ead?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. (9o|39)"
+  ],
+  "nao": []
+ },
+ {
+  "id": "S22",
+  "perfil": "profSuperior",
+  "antigo": "docenteSuperior",
+  "tipo": "",
+  "q": "a ies me obriga a usar a plataforma de ia e diz que eu respondo pelos erros dela",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. (4o|6o|12)"
+  ],
+  "nao": []
+ },
+ {
+  "id": "S23",
+  "perfil": "profSuperior",
+  "antigo": "docenteSuperior",
+  "tipo": "",
+  "q": "a universidade tem que oferecer formação em ia pros docentes?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. 11"
+  ],
+  "nao": []
+ },
+ {
+  "id": "S24",
+  "perfil": "profSuperior",
+  "antigo": "docenteSuperior",
+  "tipo": "",
+  "q": "tem que ter disciplina de ia no curso?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. (25|30)"
+  ],
+  "nao": []
+ },
+ {
+  "id": "S25",
+  "perfil": "profSuperior",
+  "antigo": "docenteSuperior",
+  "tipo": "",
+  "q": "dou aula na licenciatura em matematica, tenho que ensinar a usar ia?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. 26"
+  ],
+  "nao": []
+ },
+ {
+  "id": "S26",
+  "perfil": "profSuperior",
+  "antigo": "docenteSuperior",
+  "tipo": "",
+  "q": "no laboratorio de engenharia os alunos podem usar ia pra fazer os calculos?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. 33"
+  ],
+  "nao": []
+ },
+ {
+  "id": "S27",
+  "perfil": "profSuperior",
+  "antigo": "docenteSuperior",
+  "tipo": "",
+  "q": "dou aula num curso de tecnologia em ads, vale alguma regra diferente?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. (34|33)"
+  ],
+  "nao": []
+ },
+ {
+  "id": "S28",
+  "perfil": "profSuperior",
+  "antigo": "docenteSuperior",
+  "tipo": "",
+  "q": "oriento tcc, o aluno pode usar ia pra escrever a revisão de literatura?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. (28|27|10)"
+  ],
+  "nao": []
+ },
+ {
+  "id": "S29",
+  "perfil": "profSuperior",
+  "antigo": "docenteSuperior",
+  "tipo": "",
+  "q": "sou da banca de tcc, posso pedir pra ia ler o trabalho e fazer as perguntas?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. (40|14|15)"
+  ],
+  "nao": []
+ },
+ {
+  "id": "S30",
+  "perfil": "profSuperior",
+  "antigo": "docenteSuperior",
+  "tipo": "",
+  "q": "o sistema da universidade prevê quem vai evadir, posso ver isso dos meus alunos?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. 40"
+  ],
+  "nao": []
+ },
+ {
+  "id": "S31",
+  "perfil": "profSuperior",
+  "antigo": "docenteSuperior",
+  "tipo": "",
+  "q": "posso usar ia que analisa o rosto dos alunos pra ver se estão entendendo a aula?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. 41"
+  ],
+  "nao": []
+ },
+ {
+  "id": "S32",
+  "perfil": "profSuperior",
+  "antigo": "docenteSuperior",
+  "tipo": "",
+  "q": "aluno com deficiencia auditiva pode usar transcrição automatica na aula e na prova?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. (38|36)"
+  ],
+  "nao": []
+ },
+ {
+  "id": "S33",
+  "perfil": "profSuperior",
+  "antigo": "docenteSuperior",
+  "tipo": "",
+  "q": "posso gravar a aula e usar ia pra transcrever com a voz dos alunos?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. (10|15)|verbete 87"
+  ],
+  "nao": []
+ },
+ {
+  "id": "S34",
+  "perfil": "profSuperior",
+  "antigo": "docenteSuperior",
+  "tipo": "",
+  "q": "uso ia na minha pesquisa, preciso declarar no artigo?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. 28"
+  ],
+  "nao": []
+ },
+ {
+  "id": "S35",
+  "perfil": "profSuperior",
+  "antigo": "docenteSuperior",
+  "tipo": "",
+  "q": "a revista usou ia pra dar o parecer do meu artigo, pode?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. (1o|28)"
+  ],
+  "nao": []
+ },
+ {
+  "id": "S36",
+  "perfil": "profSuperior",
+  "antigo": "docenteSuperior",
+  "tipo": "",
+  "q": "qual o percentual de ia aceitavel num tcc?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. (10|27|41)"
+  ],
+  "nao": []
+ },
+ {
+  "id": "S37",
+  "perfil": "profSuperior",
+  "antigo": "docenteSuperior",
+  "tipo": "",
+  "q": "até quando a universidade tem que se adequar?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. 46"
+  ],
+  "nao": []
+ },
+ {
+  "id": "S38",
+  "perfil": "profSuperior",
+  "antigo": "docenteSuperior",
+  "tipo": "",
+  "q": "a ia me disse que a resolução obriga a aceitar trabalho com ia",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. (13|27)"
+  ],
+  "nao": []
+ },
+ {
+  "id": "S39",
+  "perfil": "profSuperior",
+  "antigo": "docenteSuperior",
+  "tipo": "",
+  "q": "posso usar ia pra fazer a chamada por reconhecimento facial?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. 41"
+  ],
+  "nao": []
+ },
+ {
+  "id": "S40",
+  "perfil": "profSuperior",
+  "antigo": "docenteSuperior",
+  "tipo": "",
+  "q": "minha aluna disse que vai se matar por causa da nota",
+  "classe": "CUIDADO",
+  "deve": [],
+  "nao": []
+ },
+ {
+  "id": "S41",
+  "perfil": "profSuperior",
+  "antigo": "docenteSuperior",
+  "tipo": "",
+  "q": "qual o valor da bolsa de produtividade do cnpq?",
+  "classe": "FORA",
+  "deve": [],
+  "nao": []
+ },
+ {
+  "id": "S42",
+  "perfil": "profSuperior",
+  "antigo": "docenteSuperior",
+  "tipo": "",
+  "q": "quem ganhou o brasileirão?",
+  "classe": "FORA",
+  "deve": [],
+  "nao": []
+ },
+ {
+  "id": "S43",
+  "perfil": "profSuperior",
+  "antigo": "docenteSuperior",
+  "tipo": "",
+  "q": "o que a resolução do cne muda pra quem dá aula na graduação?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. (25|27)"
+  ],
+  "nao": []
+ },
+ {
+  "id": "S44",
+  "perfil": "profSuperior",
+  "antigo": "docenteSuperior",
+  "tipo": "",
+  "q": "o aluno usou ia pra traduzir o artigo pro ingles, isso é plagio?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. (38|10|28)"
+  ],
+  "nao": []
+ },
+ {
+  "id": "S45",
+  "perfil": "profSuperior",
+  "antigo": "docenteSuperior",
+  "tipo": "",
+  "q": "sou profesor univercitario, poso uzar ia pra corijir prova?",
+  "classe": "FICHA",
+  "deve": [
+   "art\\. (40|41)"
+  ],
+  "nao": []
+ }
+]

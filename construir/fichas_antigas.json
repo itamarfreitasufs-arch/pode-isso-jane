@@ -1,0 +1,467 @@
+{
+ "iniciais": {
+  "nome": "Fundamental · 1º ao 5º ano",
+  "fichas": [
+   {
+    "tema": "Uso de IA",
+    "f": [
+     "Posso conversar com o ChatGPT pra fazer a lição?",
+     "Peça ajuda à professora para fazer a lição.",
+     "Nos anos iniciais, a resolução veda que o aluno converse com IA generativa, mesmo com supervisão. A professora pode conduzir uma atividade pedagógica mediada, sem essa interação do aluno.",
+     "A professora mostrou uma ferramenta ou pediu que você mesmo conversasse com ela?",
+     "Se ficou difícil entender a lição, peça para a professora explicar de outro jeito.",
+     22
+    ]
+   },
+   {
+    "tema": "Nota e revisão",
+    "f": [
+     "O computador marcou minha resposta errada. E agora?",
+     "Peça à professora para olhar sua resposta.",
+     "Uma marcação do sistema pode ser apenas uma dica. Se ela virou nota, é importante saber quem conferiu.",
+     "A marca apareceu no exercício ou entrou no boletim?",
+     "Mostre o exercício e diga como pensou para chegar à resposta.",
+     40
+    ]
+   },
+   {
+    "tema": "Suspeita de uso",
+    "f": [
+     "Disseram que foi o robô que escreveu minha lição. E agora?",
+     "Mostre como você fez a lição.",
+     "A escola precisa examinar o que aconteceu. O resultado de um detector, sozinho, não pode fundamentar uma sanção.",
+     "O que fez a professora desconfiar?",
+     "Mostre seus rascunhos, se tiver, e peça ajuda a uma pessoa adulta de confiança.",
+     41
+    ]
+   }
+  ]
+ },
+ "finais": {
+  "nome": "Fundamental · 6º ao 9º ano",
+  "fichas": [
+   {
+    "tema": "Uso de IA",
+    "f": [
+     "Posso usar o chat sozinho pra fazer o trabalho?",
+     "Converse com a professora antes de usar o chat.",
+     "Nos anos finais, a resolução prevê IA generativa apenas em atividades pedagógicas mediadas por profissional de educação e veda o uso direto, autônomo, individual ou sem supervisão.",
+     "O uso faz parte de uma atividade mediada pela escola?",
+     "Pergunte à professora como fazer a atividade e quais ferramentas podem ser usadas.",
+     23
+    ]
+   },
+   {
+    "tema": "Nota e revisão",
+    "f": [
+     "O robô da escola me deu zero. Uma pessoa pode olhar?",
+     "Peça revisão da nota a uma pessoa da escola.",
+     "Se a marcação da ferramenta virou nota, confirme quem examinou o resultado e qual é o procedimento para revisão.",
+     "Foi uma devolutiva do exercício ou uma nota registrada?",
+     "Leve a atividade, sua resposta e a mensagem exibida pelo sistema.",
+     40
+    ]
+   },
+   {
+    "tema": "Suspeita de uso",
+    "f": [
+     "O detector deu alto, mas fui eu que escrevi. Como mostro?",
+     "Mostre o caminho que você seguiu para escrever.",
+     "A escola pode examinar a autoria. Uma sanção baseada exclusivamente no resultado do detector é vedada.",
+     "A escola só mostrou a pontuação ou informou outros elementos?",
+     "Guarde rascunhos e versões. Peça que a professora veja os registros com você.",
+     41
+    ]
+   },
+   {
+    "tema": "Avisar o uso",
+    "f": [
+     "Usei IA numa tarefa. Preciso contar?",
+     "Confira a regra da atividade e, em caso de dúvida, conte o que a IA fez.",
+     "A resolução prevê que o uso de IA nos processos educativos seja comunicado com clareza (art. 13). A regra da atividade, definida pela escola e pelo professor, diz o que precisa ser informado e em que forma.",
+     "O professor disse se podia usar IA nessa atividade? Pediu que o uso fosse informado?",
+     "Diga o que a IA fez (explicar, revisar, sugerir ideias ou escrever trechos) e guarde a sua versão original. Se não tiver certeza da regra, pergunte antes de entregar.",
+     13
+    ]
+   }
+  ]
+ },
+ "medio": {
+  "nome": "Ensino médio",
+  "fichas": [
+   {
+    "tema": "Uso de IA",
+    "f": [
+     "Usei IA pra treinar a redação. Posso usar na prova também?",
+     "Confira a regra da prova antes de usar IA.",
+     "O uso pedagógico na educação básica é progressivo e mediado quando admitido. Uma ferramenta usada para treinar pode ter outra regra durante a prova.",
+     "A instrução era para estudar, elaborar o rascunho ou responder à prova?",
+     "Pergunte à professora quais usos são permitidos em cada etapa e como explicar sua contribuição.",
+     20
+    ]
+   },
+   {
+    "tema": "Nota e revisão",
+    "f": [
+     "A IA corrigiu minha redação e lançou a nota. Posso pedir revisão?",
+     "Peça que uma pessoa revise a redação e a nota.",
+     "A resolução veda atribuir nota a produções autorais que exijam juízo interpretativo exclusivamente por IA ou sem a correção humana prevista na norma.",
+     "O comentário era para treinar ou a nota entrou no diário? Quem corrigiu?",
+     "Guarde a redação e a devolutiva e procure a professora ou a coordenação.",
+     41
+    ]
+   },
+   {
+    "tema": "Suspeita de uso",
+    "f": [
+     "Me acusaram de copiar a redação por causa do detector. E agora?",
+     "Peça que a escola explique o motivo da acusação.",
+     "O detector pode errar. Seu resultado, sozinho, não pode fundamentar uma sanção.",
+     "Houve uma conversa, uma nota ou uma medida disciplinar?",
+     "Leve rascunhos e histórico de edição, se tiver, e peça uma conversa com a escola.",
+     41
+    ]
+   },
+   {
+    "tema": "Avisar o uso",
+    "f": [
+     "Usei IA numa tarefa. Preciso contar?",
+     "Confira a regra da atividade e, em caso de dúvida, conte o que a IA fez.",
+     "A resolução prevê que o uso de IA nos processos educativos seja comunicado com clareza (art. 13). A regra da atividade, definida pela escola e pelo professor, diz o que precisa ser informado e em que forma.",
+     "O professor disse se podia usar IA nessa atividade? Pediu que o uso fosse informado?",
+     "Diga o que a IA fez (explicar, revisar, sugerir ideias ou escrever trechos) e guarde a sua versão original. Se não tiver certeza da regra, pergunte antes de entregar.",
+     13
+    ]
+   }
+  ]
+ },
+ "graduacao": {
+  "nome": "Graduação",
+  "fichas": [
+   {
+    "tema": "Uso de IA",
+    "f": [
+     "Usei IA pra revisar um trabalho da faculdade. Tenho que declarar?",
+     "Confira a regra da disciplina e a da instituição.",
+     "A resolução prevê políticas institucionais próprias para a educação superior. Se for pesquisa científica, o art. 28 exige declarar contribuição relevante. Para uma atividade de ensino, confira as instruções aplicáveis.",
+     "Foi uma atividade de disciplina ou pesquisa científica? O que a ferramenta mudou?",
+     "Guarde a versão anterior e descreva se a IA corrigiu a escrita, reescreveu trechos ou sugeriu ideias.",
+     27,
+     28
+    ]
+   },
+   {
+    "tema": "Nota e revisão",
+    "f": [
+     "A plataforma corrigiu meu relatório e fechou a nota. Como recorro?",
+     "Peça revisão humana pelo canal da instituição.",
+     "Importa saber se a saída da IA foi apenas apoio ou se determinou a nota. A resolução prevê possibilidade de contestação e revisão humana para aplicações de alto risco.",
+     "Quem examinou a correção? Qual é o prazo e o canal para revisão?",
+     "Guarde a entrega e a devolutiva e peça os critérios utilizados e a revisão da nota.",
+     40
+    ]
+   },
+   {
+    "tema": "Suspeita de uso",
+    "f": [
+     "Meu trabalho foi marcado como IA pelo detector. Posso perder a nota?",
+     "Peça o critério e as evidências usados para decidir.",
+     "A resolução veda sanção acadêmica ou disciplinar baseada exclusivamente no resultado do detector. Confira o procedimento institucional para contestar a medida.",
+     "Foi um alerta ou uma decisão? Foi apresentado algo além do detector?",
+     "Separe rascunhos, versões e instruções da disciplina e solicite a revisão pelo canal indicado.",
+     41
+    ]
+   }
+  ]
+ },
+ "docenteFundamental": {
+  "nome": "Professor do ensino fundamental",
+  "fichas": [
+   {
+    "tema": "Atividade com a turma",
+    "f": [
+     "Posso pedir que minha turma do fundamental converse com um chatbot?",
+     "Confira se são anos iniciais ou finais antes de propor a atividade.",
+     "Nos anos iniciais, estudantes não podem interagir com IA generativa ou conversacional, mesmo sob supervisão. Nos anos finais, o uso de IA generativa somente cabe em atividade pedagógica mediada por profissional da educação, com as restrições do art. 23.",
+     "Em que ano está a turma? Quem operaria a ferramenta? Haveria acesso individual ou autônomo?",
+     "Nos anos iniciais, prepare você o material e conduza a atividade sem interação dos alunos com o chatbot. Nos anos finais, organize uma proposta mediada e verifique as regras da escola.",
+     22,
+     23
+    ]
+   },
+   {
+    "tema": "Material didático",
+    "f": [
+     "Usei IA pra montar uma ficha de leitura. Preciso avisar a turma?",
+     "Informe o uso de IA e confira o material antes da aula.",
+     "O art. 14, § 2º, exige informação clara sobre o uso de IA na elaboração, adaptação e revisão de materiais didáticos e atividades. Cabe a quem elaborou verificar a adequação ao objetivo de aprendizagem.",
+     "O texto, as imagens e as perguntas funcionam para a idade e para o objetivo da atividade?",
+     "Revise erros e exemplos, adapte a ficha à turma e diga em que a IA ajudou. Ao apresentar o material à turma, você pode dizer: “Usei IA para gerar estas imagens e revisei o resultado.” Comunique às famílias quando couber.",
+     13,
+     14,
+     18
+    ]
+   },
+   {
+    "tema": "Suspeita de uso",
+    "f": [
+     "O detector marcou a lição de um aluno. Posso aplicar sanção?",
+     "Apure o caso com a escola e ouça o aluno.",
+     "A resolução veda sanção acadêmica ou disciplinar baseada exclusivamente no resultado de detector automatizado.",
+     "Quais instruções foram dadas e que evidências existem além da marcação?",
+     "Peça ao aluno que explique como fez a atividade. Examine os registros disponíveis e siga o procedimento da escola.",
+     41
+    ]
+   },
+   {
+    "tema": "Tecnologia assistiva",
+    "f": [
+     "Um aluno usa leitor de tela ou outro recurso de acessibilidade com IA. Posso permitir?",
+     "Recursos de acessibilidade e tecnologia assistiva não entram na vedação dos anos iniciais.",
+     "O art. 22, § 5º, diz que a vedação de interação com IA nos anos iniciais não alcança as tecnologias assistivas e os recursos de acessibilidade destinados a eliminar barreiras à aprendizagem, observado o art. 36, § 3º (proteção de dados, supervisão humana, proporcionalidade).",
+     "O recurso serve para remover uma barreira de aprendizagem desse aluno? Quem o configura e que dados ele coleta?",
+     "Registre a finalidade de acessibilidade, confira com a escola os dados coletados e mantenha o uso restrito a essa finalidade.",
+     22,
+     36
+    ]
+   },
+   {
+    "tema": "Dados e imagens dos alunos",
+    "f": [
+     "Posso colocar fotos, desenhos ou trabalhos dos alunos numa ferramenta de IA?",
+     "Só use ferramenta que a escola tenha avaliado e que não reutilize o conteúdo dos alunos para treinar modelos.",
+     "O art. 15 veda usar conteúdos de docentes e estudantes para treinar modelos de IA de terceiros, salvo autorização específica; para crianças e adolescentes, a vedação vale mesmo com autorização (parágrafo único). O art. 24 veda exploração comercial dos dados dos estudantes da educação básica.",
+     "A ferramenta guarda ou reutiliza o que recebe? A escola autorizou o uso? A imagem ou o texto identifica o aluno?",
+     "Consulte a direção antes de enviar. Prefira material sem identificação do aluno e confirme que a ferramenta não usa o conteúdo para treinamento.",
+     15,
+     24
+    ]
+   },
+   {
+    "tema": "Correção e notas",
+    "f": [
+     "Posso deixar a IA corrigir as redações ou lançar notas?",
+     "Faça a correção humana antes de atribuir a nota.",
+     "A resolução veda atribuir nota a redações e outras produções autorais que exigem juízo interpretativo exclusivamente por IA ou sem a correção humana prevista no art. 40, § 4º.",
+     "A ferramenta rascunha uma devolutiva ou o resultado dela passa a valer como nota?",
+     "Corrija cada produção individualmente, aplique os critérios e justifique a nota. Um ok em bloco não substitui essa correção. Informe como o aluno pode pedir revisão.",
+     40,
+     41
+    ]
+   }
+  ]
+ },
+ "docenteMedio": {
+  "nome": "Professor do ensino médio",
+  "fichas": [
+   {
+    "tema": "Planejamento de atividade",
+    "f": [
+     "Quero usar IA pra treinar argumentação com a turma. Como planejo?",
+     "Defina o objetivo e as condições de uso antes da atividade.",
+     "Quando o uso for admitido na educação básica, a resolução orienta integração progressiva, mediada e adequada à etapa. Também prevê que se ensine a verificar fontes e distinguir apoio tecnológico de elaboração própria.",
+     "Qual parte do trabalho deve mostrar o raciocínio do estudante? Todos têm acesso a uma alternativa adequada?",
+     "Combine com a turma quando a ferramenta pode entrar, peça que compare respostas e explique como será avaliado o raciocínio próprio.",
+     18,
+     20
+    ]
+   },
+   {
+    "tema": "Correção de redação",
+    "f": [
+     "Posso deixar a IA corrigir a redação e lançar a nota?",
+     "Faça a correção humana antes de atribuir a nota.",
+     "A resolução veda atribuir nota a redações e outras produções autorais que exigem juízo interpretativo exclusivamente por IA ou sem a correção humana prevista no art. 40, § 4º.",
+     "A ferramenta rascunha uma devolutiva ou o resultado dela passa a valer como nota?",
+     "Corrija cada redação individualmente, aplique os critérios e justifique a nota. Um ok em bloco não substitui essa correção. Informe como o aluno pode pedir revisão.",
+     40,
+     41
+    ]
+   },
+   {
+    "tema": "Suspeita de uso",
+    "f": [
+     "O detector marcou uma redação. Já posso zerar?",
+     "Examine os fatos e os critérios antes de decidir sobre a nota.",
+     "Se o zero funcionar como sanção pela autoria supostamente irregular, o detector sozinho não pode fundamentá-lo.",
+     "Você examinou rascunhos, versões ou a explicação do aluno? Qual era a regra de uso na atividade?",
+     "Converse com o aluno e confira o procedimento da escola antes de tomar uma medida.",
+     10,
+     41
+    ]
+   },
+   {
+    "tema": "Dados e imagens dos alunos",
+    "f": [
+     "Posso colocar fotos, desenhos ou trabalhos dos alunos numa ferramenta de IA?",
+     "Só use ferramenta que a escola tenha avaliado e que não reutilize o conteúdo dos alunos para treinar modelos.",
+     "O art. 15 veda usar conteúdos de docentes e estudantes para treinar modelos de IA de terceiros, salvo autorização específica; para crianças e adolescentes, a vedação vale mesmo com autorização (parágrafo único). O art. 24 veda exploração comercial dos dados dos estudantes da educação básica.",
+     "A ferramenta guarda ou reutiliza o que recebe? A escola autorizou o uso? A imagem ou o texto identifica o aluno?",
+     "Consulte a direção antes de enviar. Prefira material sem identificação do aluno e confirme que a ferramenta não usa o conteúdo para treinamento.",
+     15,
+     24
+    ]
+   }
+  ]
+ },
+ "docenteSuperior": {
+  "nome": "Professor do ensino superior",
+  "fichas": [
+   {
+    "tema": "Regras da disciplina",
+    "f": [
+     "Como escrevo no plano de ensino o que os alunos podem fazer com IA?",
+     "Explique os usos e as condições por atividade, conforme a política institucional.",
+     "A educação superior pode integrar IA ao ensino. O art. 27 atribui às instituições a definição de suas políticas e diretrizes de uso.",
+     "O curso ou a instituição já tem uma regra? A atividade avalia a produção própria ou permite apoio da ferramenta?",
+     "Indique usos permitidos, limites, forma de informar o uso e critérios de avaliação antes da entrega. Em programação, por exemplo, diga se a IA pode ajudar a localizar erros e como cada aluno demonstrará que sabe explicar e corrigir o código.",
+     25,
+     27
+    ]
+   },
+   {
+    "tema": "Avaliação e revisão",
+    "f": [
+     "Posso usar IA para sugerir feedback e notas de relatórios?",
+     "Use as sugestões como apoio e examine separadamente o feedback e a nota.",
+     "A atribuição de nota a produções autorais que exigem juízo interpretativo exige correção humana nos termos da resolução. Devolutiva formativa sem repercussão em nota tem outro efeito e deve ser examinada conforme o uso.",
+     "A sugestão aparece só para você ou é lançada automaticamente? O estudante sabe como pedir revisão?",
+     "Confira cada trabalho, registre sua decisão e informe aos estudantes como foi usada a ferramenta.",
+     13,
+     14,
+     40,
+     41
+    ]
+   },
+   {
+    "tema": "Apuração de autoria",
+    "f": [
+     "Suspeito de uso indevido de IA num relatório. O que registro?",
+     "Registre a regra aplicável e os elementos que sustentam a suspeita.",
+     "Uma citação inexistente ou uma mudança de estilo merece ser examinada. Uma mudança de estilo, sozinha, não identifica como o texto foi produzido. Uma sanção acadêmica ou disciplinar fundada exclusivamente em resultado de detector é vedada.",
+     "O uso era proibido, permitido com declaração ou permitido de forma mais ampla? Que elementos serão examinados?",
+     "Ouça o estudante, preserve os registros pertinentes e siga a apuração institucional.",
+     10,
+     27,
+     41
+    ]
+   }
+  ]
+ },
+ "orientador": {
+  "nome": "Orientador de pós-graduação",
+  "fichas": [
+   {
+    "tema": "Declaração na pesquisa",
+    "f": [
+     "Minha orientanda usou IA na análise de dados. O que ela precisa declarar?",
+     "Peça que a contribuição relevante seja declarada na pesquisa.",
+     "O art. 28 exige declarar contribuição relevante da IA e mantém autoria e responsabilidade atribuídas às pessoas pesquisadoras.",
+     "O que a ferramenta fez, em qual etapa e o que a pessoa pesquisadora verificou, modificou ou incorporou? Onde o programa pede a declaração?",
+     "Confira se a declaração permite entender a etapa, a contribuição e sua revisão humana.",
+     27,
+     28
+    ]
+   },
+   {
+    "tema": "Dados de pesquisa",
+    "f": [
+     "Posso mandar gravações e transcrições de entrevistas pra uma IA?",
+     "Antes do envio, confira as condições de proteção dos dados e do projeto.",
+     "A resolução exige que a utilização seja examinada também pelo impacto sobre dados pessoais e direitos. O uso de uma ferramenta deve respeitar as regras institucionais e do projeto de pesquisa.",
+     "Há identificação direta ou indireta? O projeto e a instituição autorizam esse tratamento? O fornecedor retém, compartilha ou reutiliza o conteúdo?",
+     "Se não puder verificar essas condições, suspenda o envio e consulte o procedimento da instituição e os documentos do projeto.",
+     3,
+     12,
+     28
+    ]
+   },
+   {
+    "tema": "Evidências e autoria",
+    "f": [
+     "A banca citou um detector para questionar a autoria. Como oriento?",
+     "Ajude a separar a suspeita, a declaração de uso e a comprovação da contribuição intelectual.",
+     "A pessoa pesquisadora responde pelos resultados. A resolução veda sanção baseada exclusivamente no detector.",
+     "O órgão responsável apontou quais evidências e qual regra? A declaração descreveu as contribuições relevantes?",
+     "Reúna as versões disponíveis e a explicação metodológica. Ajude a pessoa orientada a solicitar análise humana e a seguir o procedimento do programa.",
+     28,
+     41
+    ]
+   }
+  ]
+ },
+ "gestor": {
+  "nome": "Gestor de escola",
+  "fichas": [
+   {
+    "tema": "Adoção de ferramenta",
+    "f": [
+     "A escola quer adotar uma plataforma de IA. Por onde começo?",
+     "Documente a decisão pedagógica e classifique cada uso pelo risco.",
+     "A adoção deve ser fundamentada técnica, pedagógica e institucionalmente, com participação da comunidade educacional. O grau de supervisão e governança é proporcional aos riscos do uso concreto.",
+     "Qual problema será resolvido, quem usará a ferramenta, quais dados entram e que decisões ela pode afetar?",
+     "Reavalie o risco quando a ferramenta ganhar uma função nova. A predição individualizada de evasão figura entre as aplicações de alto risco no art. 40. Documente o enquadramento, as salvaguardas e quem responde pela supervisão.",
+     6,
+     12,
+     36,
+     37,
+     40,
+     42
+    ]
+   },
+   {
+    "tema": "Dados e contratação",
+    "f": [
+     "O fornecedor quer usar atividades das crianças pra treinar o modelo. A escola pode aceitar?",
+     "Exclua esse uso no contrato e verifique se o fornecedor consegue cumprir a condição.",
+     "O art. 15 veda o treinamento de modelos de terceiros com conteúdos produzidos por crianças e adolescentes. O art. 24 também veda publicidade direcionada, perfilização mercadológica e exploração comercial dos dados dos estudantes da educação básica.",
+     "O contrato proíbe reutilização para treinamento? Como a escola verifica retenção, acesso e cumprimento?",
+     "Se o aplicativo oferece propaganda com base no perfil dos alunos, não libere esse uso. Exija condições verificáveis no contrato. Não encaminhe conteúdo de crianças e adolescentes para treinamento.",
+     5,
+     15,
+     24,
+     41
+    ]
+   },
+   {
+    "tema": "Avaliação e contestação",
+    "f": [
+     "A plataforma lançou a nota sem ninguém olhar. Como a direção procede?",
+     "Examine o fluxo e encaminhe o caso para revisão humana.",
+     "A resolução protege a responsabilidade humana nas decisões relevantes e veda atribuição de nota exclusivamente por IA nas produções autorais abrangidas pelo art. 41, IX.",
+     "Que decisões a ferramenta tomou? Quem pode corrigi-las? Quais estudantes foram afetados?",
+     "Preserve os registros, encaminhe as notas para revisão e informe como os estudantes podem contestar o resultado.",
+     14,
+     29,
+     40,
+     41
+    ]
+   },
+   {
+    "tema": "Decisão automatizada",
+    "f": [
+     "Um sistema vai decidir sozinho a aprovação, a nota ou a trajetória dos alunos. Posso adotar?",
+     "Não adote decisão exclusivamente automatizada; mantenha uma pessoa responsável e a possibilidade de revisão.",
+     "O art. 29 exige supervisão humana significativa e possibilidade de revisão das decisões, e seu parágrafo único veda decisões exclusivamente automatizadas com impacto relevante sobre direitos ou trajetórias acadêmicas dos estudantes. Para avaliações objetivas ou de resposta fechada com repercussão acadêmica, o art. 40, § 1º, I, só admite apoio à correção, com validação humana efetiva, prévia, qualificada e documentada.",
+     "Quem decide ao final? A decisão afeta aprovação, reprovação, nota ou acesso? Como o estudante ou a família pede revisão?",
+     "Use o sistema só como apoio, defina quem valida cada decisão, registre os critérios e informe como pedir revisão.",
+     29,
+     40
+    ]
+   },
+   {
+    "tema": "Atendimento com IA",
+    "f": [
+     "Quero usar um assistente virtual para atender as famílias. O que cuidar?",
+     "Informe claramente que é IA e defina quem responde pelo que ela diz.",
+     "O art. 13 exige comunicar de forma clara o uso de IA nos processos educativos, inclusive às famílias quando couber, e mantém os resultados sujeitos à análise crítica e à responsabilidade humana. O art. 15 veda usar conteúdos de estudantes e docentes para treinar modelos de IA de terceiros, salvo autorização específica, e o art. 5º pede governança e responsabilização nos contratos.",
+     "O fornecedor guarda ou reutiliza as conversas? Quem revisa respostas erradas? Há dados de estudantes envolvidos?",
+     "Avise as famílias de que é IA, ofereça atendimento humano, exija no contrato que as conversas não treinem modelos e defina quem corrige erros.",
+     13,
+     15,
+     5
+    ]
+   }
+  ]
+ }
+}

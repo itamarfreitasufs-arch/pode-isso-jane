@@ -1,0 +1,297 @@
+[
+ {
+  "id": "R01",
+  "perfil": "",
+  "tipo": "",
+  "q": "usei IA na dissertação",
+  "classe": "FICHA",
+  "deve": [
+   "selecione o seu perfil"
+  ],
+  "nao": [
+   "ficha: "
+  ]
+ },
+ {
+  "id": "R02",
+  "perfil": "",
+  "tipo": "",
+  "q": "posso usar chatgpt no tcc",
+  "classe": "FICHA",
+  "deve": [
+   "selecione o seu perfil"
+  ],
+  "nao": [
+   "ficha: "
+  ]
+ },
+ {
+  "id": "R03",
+  "perfil": "",
+  "tipo": "",
+  "q": "art. 28",
+  "classe": "FICHA",
+  "deve": [
+   "linha: .*art\\. 28"
+  ],
+  "nao": [
+   "selecione o seu perfil"
+  ]
+ },
+ {
+  "id": "R04",
+  "perfil": "",
+  "tipo": "",
+  "q": "quero me matar",
+  "classe": "CUIDADO",
+  "deve": [],
+  "nao": [
+   "sem correspondencia"
+  ]
+ },
+ {
+  "id": "R05",
+  "perfil": "",
+  "tipo": "",
+  "q": "orientador",
+  "classe": "FICHA",
+  "deve": [
+   "selecione o seu perfil"
+  ],
+  "nao": [
+   "ficha: "
+  ]
+ },
+ {
+  "id": "R06",
+  "perfil": "",
+  "tipo": "",
+  "q": "supervisão humana",
+  "classe": "FICHA",
+  "deve": [
+   "linha: "
+  ],
+  "nao": []
+ },
+ {
+  "id": "R07",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "meu professor corrigiu minha redação com IA",
+  "classe": "FICHA",
+  "deve": [
+   "ficha: .*(sem ler|corrigiu|nota)"
+  ],
+  "nao": [
+   "ficha: usei ia na dissertacao"
+  ]
+ },
+ {
+  "id": "R08",
+  "perfil": "graduacao",
+  "tipo": "",
+  "q": "meu professor corrigiu minha redação com IA",
+  "classe": "FICHA",
+  "deve": [
+   "ficha: .*(sem ler|corrigiu|nota)"
+  ],
+  "nao": [
+   "ficha: usei ia no tcc"
+  ]
+ },
+ {
+  "id": "R09",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "usei IA na dissertação",
+  "classe": "FICHA",
+  "deve": [
+   "ficha: usei ia na dissertacao"
+  ],
+  "nao": []
+ },
+ {
+  "id": "R10",
+  "perfil": "graduacao",
+  "tipo": "",
+  "q": "usei o gpt no tcc, preciso declarar?",
+  "classe": "FICHA",
+  "deve": [
+   "ficha: usei ia no tcc"
+  ],
+  "nao": []
+ },
+ {
+  "id": "R11",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "o detector acusou minha tese",
+  "classe": "FICHA",
+  "deve": [
+   "ficha: .*questionou"
+  ],
+  "nao": [
+   "ficha: usei ia na dissertacao"
+  ]
+ },
+ {
+  "id": "R12",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "como fazer bolo de chocolate",
+  "classe": "FORA",
+  "deve": [],
+  "nao": [
+   "sem correspondencia"
+  ]
+ },
+ {
+  "id": "R13",
+  "perfil": "graduacao",
+  "tipo": "",
+  "q": "qual a cor do cavalo branco de napoleão",
+  "classe": "FORA",
+  "deve": [],
+  "nao": [
+   "sem correspondencia"
+  ]
+ },
+ {
+  "id": "R14",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "vou me formar ano que vem",
+  "classe": "FICHA",
+  "deve": [
+   "foge do que"
+  ],
+  "nao": [
+   "sem correspondencia"
+  ]
+ },
+ {
+  "id": "R15",
+  "perfil": "",
+  "tipo": "",
+  "q": "como fazer bolo de chocolate",
+  "classe": "FORA",
+  "deve": [],
+  "nao": [
+   "sem correspondencia"
+  ]
+ },
+ {
+  "id": "R16",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "supervisão humana",
+  "classe": "FICHA",
+  "deve": [
+   "linha: "
+  ],
+  "nao": [
+   "foge do que"
+  ]
+ },
+ {
+  "id": "R17",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "ksso usr ia na teze",
+  "classe": "FICHA",
+  "deve": [
+   "ficha: "
+  ],
+  "nao": [
+   "sem correspondencia"
+  ]
+ },
+ {
+  "id": "R18",
+  "perfil": "graduacao",
+  "tipo": "",
+  "q": "posu uza ia",
+  "classe": "FICHA",
+  "deve": [
+   "ficha: "
+  ],
+  "nao": [
+   "sem correspondencia"
+  ]
+ },
+ {
+  "id": "R19",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "posso uzar chatgpt na dicertação",
+  "classe": "FICHA",
+  "deve": [
+   "ficha: .*(mestrado|doutorado|pesquisa)"
+  ],
+  "nao": [
+   "sem correspondencia"
+  ]
+ },
+ {
+  "id": "R20",
+  "perfil": "graduacao",
+  "tipo": "",
+  "q": "o profesor zerou meu trabaio por causa do detetor",
+  "classe": "FICHA",
+  "deve": [
+   "ficha: .*detector"
+  ],
+  "nao": [
+   "sem correspondencia"
+  ]
+ },
+ {
+  "id": "R21",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "sou vítima de deepfake nude",
+  "classe": "FICHA",
+  "deve": [
+   "safernet|provas"
+  ],
+  "nao": [
+   "sem correspondencia",
+   "ficha: "
+  ]
+ },
+ {
+  "id": "R22",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "posso usar chatgpt na minha tese",
+  "classe": "FICHA",
+  "deve": [
+   "ficha: .*(mestrado|doutorado|pesquisa)"
+  ],
+  "nao": []
+ },
+ {
+  "id": "R23",
+  "perfil": "graduacao",
+  "tipo": "",
+  "q": "verbete 87",
+  "classe": "FICHA",
+  "deve": [
+   "linha: .*verbete 87"
+  ],
+  "nao": []
+ },
+ {
+  "id": "R24",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "art. 100",
+  "classe": "FICHA",
+  "deve": [
+   "47 artigos"
+  ],
+  "nao": [
+   "linha: "
+  ]
+ }
+]

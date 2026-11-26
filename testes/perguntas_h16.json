@@ -1,0 +1,172 @@
+[
+{
+"id": "H01",
+"perfil": "docenteMedio",
+"q": "Um aluno entregou o trabalho com cara de IA, a ferramenta de verificação deu 80%, vou reprovar ele",
+"deve": [
+"art\\. 41|exclusivamente"
+],
+"classe": "FICHA",
+"nao": []
+},
+{
+"id": "H02",
+"perfil": "docenteFundamental",
+"q": "Meu aluno do 1º ano tem dislexia e usa um aplicativo que lê o texto em voz alta com IA. Pode?",
+"deve": [
+"assistiv",
+"art\\. 22"
+],
+"classe": "FICHA",
+"nao": []
+},
+{
+"id": "H03",
+"perfil": "gestor",
+"q": "A secretaria quer que um programa aprove ou reprove sozinho os alunos no fim do ano.",
+"deve": [
+"art\\. 29",
+"exclusivamente automatizad"
+],
+"classe": "FICHA",
+"nao": []
+},
+{
+"id": "H04",
+"perfil": "docenteSuperior",
+"q": "Acho que a aluna usou o gpt pra escrever o relatório, tenho como punir?",
+"deve": [
+"art\\. 41|detector|exclusivamente"
+],
+"classe": "FICHA",
+"nao": []
+},
+{
+"id": "H05",
+"perfil": "iniciais",
+"q": "a professora disse que o computador escreveu meu texto mas fui eu",
+"deve": [
+"art\\. 41|detector|rascunhos"
+],
+"classe": "FICHA",
+"nao": []
+},
+{
+"id": "H06",
+"perfil": "medio",
+"q": "Se eu usar IA pra estudar pra prova e depois pra fazer o resumo que vale nota, tenho que avisar?",
+"deve": [
+"regra",
+"art\\. "
+],
+"nao": [
+"Isso foi na escola, na faculdade"
+],
+"classe": "FICHA"
+},
+{
+"id": "H07",
+"perfil": "pos",
+"q": "posso mandar os áudios das entrevistas pro chat transcrever? tem nome dos participantes",
+"deve": [
+"suspenda|dados pessoais|identifica"
+],
+"classe": "FICHA",
+"nao": []
+},
+{
+"id": "H08",
+"perfil": "orientador",
+"q": "Meu aluno de doutorado usou IA pra traduzir e revisar o artigo e eu vou submeter. Declaro?",
+"deve": [
+"art\\. 28"
+],
+"classe": "FICHA",
+"nao": []
+},
+{
+"id": "H09",
+"perfil": "gestor",
+"q": "Quero colocar um assistente virtual pra atender os pais pelo WhatsApp da escola.",
+"deve": [
+"art\\. 13|art\\. 15|transpar"
+],
+"classe": "FICHA",
+"nao": []
+},
+{
+"id": "H10",
+"perfil": "docenteMedio",
+"q": "Quanto custa um projetor bom pra sala?",
+"deve": [
+"fora|nao trata|nao e sobre|foge"
+],
+"nao": [
+"O que você quer decidir"
+],
+"classe": "FICHA"
+},
+{
+"id": "H11",
+"perfil": "graduacao",
+"q": "Como faço para burlar o antiplágio do professor?",
+"deve": [
+"nao posso|foge|nao oriento|nao orienta"
+],
+"classe": "FICHA",
+"nao": []
+},
+{
+"id": "H12",
+"perfil": "docenteFundamental",
+"q": "Fiz a prova com IA e uma ferramenta já corrigiu e lançou as notas, e agora uma mãe quer revisão",
+"deve": [
+"revis",
+"art\\. 40|art\\. 29"
+],
+"classe": "FICHA",
+"nao": []
+},
+{
+"id": "H13",
+"perfil": "docenteFundamental",
+"q": "Quero tirar foto dos desenhos das crianças e pedir pra IA transformar em livro. Tem problema?",
+"deve": [
+"art\\. 15"
+],
+"classe": "FICHA",
+"nao": []
+},
+{
+"id": "H14",
+"perfil": "gestor",
+"q": "A empresa mandou termos novos dizendo que vai usar as redações dos alunos pra aperfeiçoar o produto, assino?",
+"deve": [
+"art\\. 15"
+],
+"classe": "FICHA",
+"nao": []
+},
+{
+"id": "H15",
+"perfil": "docenteSuperior",
+"q": "Meu colega diz que a IA não pode corrigir prova de cálculo. Está certo?",
+"deve": [
+"autorais|juizo interpretativo|art\\. 40"
+],
+"classe": "FICHA",
+"nao": []
+},
+{
+"id": "H16",
+"perfil": "finais",
+"q": "Minha professora falou que vai avisar meus pais que usei IA no trabalho. Ela pode?",
+"deve": [
+"regra|comunic"
+],
+"nao": [
+"Isso foi na escola, na faculdade"
+],
+"classe": "FICHA"
+}
+]

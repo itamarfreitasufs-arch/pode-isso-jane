@@ -1,0 +1,39 @@
+<!doctype html><meta charset=utf8><iframe id=f src="app/index.html" width=390 height=800></iframe><pre id=o>aguardando</pre>
+<script>
+const log=[];const L=(k,v)=>log.push(k+': '+(typeof v==='string'?v:JSON.stringify(v)));
+const sleep=ms=>new Promise(r=>setTimeout(r,ms));
+const f=document.getElementById('f');
+f.onload=async()=>{try{
+ const w=f.contentWindow,d=f.contentDocument,$=s=>d.querySelector(s);
+ w.__erros=[];w.addEventListener('error',e=>w.__erros.push(e.message));w.addEventListener('unhandledrejection',e=>w.__erros.push('rej '+e.reason));
+ await sleep(1200);
+ const enviar=async(perfil,q)=>{$('#level').value=perfil;$('#level').dispatchEvent(new Event('change'));await sleep(150);$('#message').value=q;$('#question').requestSubmit();await sleep(350);};
+ const vis=e=>e&&!e.hidden&&e.offsetParent!==null;
+ L('microfone presente',!!$('#dictate'));
+ await enviar('docenteSuperior',"<script>window.__x=1<\/script><img src=x onerror=window.__x=2>");L('xss executou',w.__x??'não');L('status',$('#status').textContent.slice(0,60));
+ await enviar('','posso?');L('sem perfil «posso?»',$('#status').textContent.slice(0,70));L('atalhos da pós visíveis sem perfil',vis($('#academic-topics')));
+ await enviar('medio','🍕🍕🍕???');L('medio pizza',$('#status').textContent.slice(0,50));L('exemplos do perfil',$('#level-examples').children.length);L('atalhos visíveis',vis($('#academic-topics')));
+ L('exemplos abertos quando não há resposta',$('#more').open);$('#level-examples button').click();await sleep(200);L('clique no exemplo → ficha',$('#results .verdict h2')?.textContent.slice(0,50));L('foco na ficha',d.activeElement===$('#results article'));
+ await enviar('medio','Me acusaram de usar IA, vou ser reprovado e eu não aguento mais, quero sumir');L('cuidado: bloco',$('#care h2')?.textContent+' | links: '+[...d.querySelectorAll('#care a')].map(a=>a.getAttribute('href')).join(', '));L('exemplos recolhidos após envio',!$('#more').open);L('veredito',$('#results .verdict-label')?.textContent+' | '+$('#results .verdict h2')?.textContent.slice(0,50));L('passos numerados',d.querySelectorAll('#results .steps li').length);L('ficha',$('#results .eyeline')?.textContent);
+ await enviar('gestor','A prefeitura mandou instalar câmera com IA na sala pra medir atenção dos alunos. Cumpro?');L('gestor',$('#results .verdict-label')?.textContent+' | '+$('#results .eyeline')?.textContent);
+ L('complemento',!!$('#results .told'));
+ const det=$('#results details.norma');det.open=true;await sleep(100);L('dispositivos na ficha',det.querySelectorAll('details').length);
+ await enviar('pos','');L('pos vazio',$('#status').textContent);L('roteiros da pós visíveis',vis($('#academic-topics')));
+ $('[data-topic=declaracao]').click();$('[data-topic=declaracao]').click();await sleep(500);L('roteiro pós: fichas',$('#results').children.length);L('fontes',$('#results .norma details summary')?.textContent.slice(0,50));
+ $('#results fieldset button').click();await sleep(100);L('opção → veredito',$('#results article section h3')?.textContent.slice(0,60));
+ await enviar('finais','o que é IA generativa?');L('glossário',$('#results h2')?.textContent+' | '+$('#results pre')?.textContent.slice(0,60));
+ await enviar('gestor','art. 41, inciso X');L('artigo',$('#results summary')?.textContent);
+ await enviar('docenteMedio','A IA vai dominar o mundo e acabar com os professores?');L('sem ficha',$('#status').textContent.slice(0,60)+' | trechos: '+d.querySelectorAll('#results details').length);
+ const longo='a professora usou IA pra corrigir minha prova e errou a nota '.repeat(60);
+ await enviar('medio',longo);L('3600 caracteres →',($('#results h2')?.textContent||$('#status').textContent).slice(0,60));
+ const buscar=async q=>{$('#query').value=q;$('#search').requestSubmit();await sleep(300);const r=$('#legal-results');return r.querySelectorAll('details').length+' | '+(r.querySelector('summary')?.textContent||r.textContent).slice(0,60)};
+ for(const q of ['art. 41','Art 41, X','art. 40 § 4','artigo 99','supervisão humana','emoção','emoções','detector','IA','   ','%']) L('busca «'+q+'»',await buscar(q));
+ await enviar('finais','posso usar o chat?');
+ L('alvos <44px (390px)',[...d.querySelectorAll('button,select,summary,input,a')].filter(e=>e.offsetParent&&e.getBoundingClientRect().height<43.5).map(e=>e.tagName+':'+Math.round(e.getBoundingClientRect().height)+':'+e.textContent.slice(0,14)));
+ L('rolagem horizontal',d.documentElement.scrollWidth>d.documentElement.clientWidth);
+ L('grupos com role',[...d.querySelectorAll('.buttons')].map(e=>(e.id||'-')+':'+(e.getAttribute('role')||'sem')));
+ L('erros JS',w.__erros);
+ }catch(e){L('ERRO',e.stack)}
+ document.getElementById('o').textContent=log.join('\n');
+};
+</script>

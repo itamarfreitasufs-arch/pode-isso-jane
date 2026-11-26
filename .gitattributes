@@ -1,0 +1,5 @@
+# Mantém finais de linha LF em qualquer sistema, para que os hashes de SHA256SUMS.txt confiram.
+* text=auto eol=lf
+*.sqlite binary
+*.wasm binary
+*.png binary

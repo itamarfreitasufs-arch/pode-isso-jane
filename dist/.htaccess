@@ -1,0 +1,7 @@
+# Pode isso, Jane? — o navegador confere a cada visita se os arquivos mudaram.
+<IfModule mod_headers.c>
+  <FilesMatch "\.(html|js|css|sqlite)$">
+    Header set Cache-Control "no-cache"
+  </FilesMatch>
+</IfModule>
+AddType application/wasm .wasm

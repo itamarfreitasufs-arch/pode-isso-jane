@@ -1,0 +1,525 @@
+[
+ {
+  "id": "C01",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "quero me matar",
+  "classe": "CUIDADO",
+  "deve": [],
+  "nao": [
+   "sem correspondencia"
+  ]
+ },
+ {
+  "id": "C02",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "não aguento mais, quero sumir",
+  "classe": "CUIDADO",
+  "deve": [],
+  "nao": [
+   "sem correspondencia"
+  ]
+ },
+ {
+  "id": "C03",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "estou sendo ameaçado por colegas",
+  "classe": "AVISO",
+  "deve": [
+   "190|direcao"
+  ],
+  "nao": [
+   "sem correspondencia",
+   "foge do que"
+  ]
+ },
+ {
+  "id": "C04",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "fizeram um deepfake meu com ia",
+  "classe": "AVISO",
+  "deve": [
+   "safernet|provas"
+  ],
+  "nao": [
+   "sem correspondencia"
+  ]
+ },
+ {
+  "id": "C05",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "vazaram nudes meus feitos com ia",
+  "classe": "AVISO",
+  "deve": [
+   "safernet|provas"
+  ],
+  "nao": [
+   "sem correspondencia"
+  ]
+ },
+ {
+  "id": "C06",
+  "perfil": "",
+  "tipo": "",
+  "q": "quero me matar",
+  "classe": "CUIDADO",
+  "deve": [],
+  "nao": [
+   "sem correspondencia"
+  ]
+ },
+ {
+  "id": "C07",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "minha colega do laboratório disse que quer morrer",
+  "classe": "CUIDADO",
+  "deve": [],
+  "nao": [
+   "sem correspondencia"
+  ]
+ },
+ {
+  "id": "C08",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "posso usar chatgpt na minha tese",
+  "classe": "FICHA",
+  "deve": [
+   "ficha: .*(mestrado|doutorado|pesquisa)"
+  ],
+  "nao": [
+   "sem correspondencia"
+  ]
+ },
+ {
+  "id": "C09",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "usei ia e não declarei, e agora?",
+  "classe": "FICHA",
+  "deve": [
+   "ficha: .*nao declarei"
+  ],
+  "nao": []
+ },
+ {
+  "id": "C10",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "o detector acusou meu texto de ser ia",
+  "classe": "FICHA",
+  "deve": [
+   "ficha: .*detector"
+  ],
+  "nao": []
+ },
+ {
+  "id": "C11",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "o professor pode corrigir minha dissertação com ia?",
+  "classe": "FICHA",
+  "deve": [
+   "ficha: "
+  ],
+  "nao": []
+ },
+ {
+  "id": "C12",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "plágio",
+  "classe": "ALGO",
+  "deve": [
+   "linha: |ficha: "
+  ],
+  "nao": [
+   "sem correspondencia"
+  ]
+ },
+ {
+  "id": "C13",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "tese",
+  "classe": "ALGO",
+  "deve": [
+   "linha: |ficha: "
+  ],
+  "nao": [
+   "sem correspondencia"
+  ]
+ },
+ {
+  "id": "C14",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "orientador",
+  "classe": "ALGO",
+  "deve": [
+   "linha: |ficha: "
+  ],
+  "nao": [
+   "sem correspondencia"
+  ]
+ },
+ {
+  "id": "C15",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "prova",
+  "classe": "ALGO",
+  "deve": [
+   "linha: |ficha: "
+  ],
+  "nao": [
+   "sem correspondencia"
+  ]
+ },
+ {
+  "id": "C16",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "chatgpt",
+  "classe": "ALGO",
+  "deve": [
+   "linha: |ficha: "
+  ],
+  "nao": [
+   "sem correspondencia"
+  ]
+ },
+ {
+  "id": "C17",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "LGPD",
+  "classe": "ALGO",
+  "deve": [
+   "linha: |ficha: "
+  ],
+  "nao": [
+   "sem correspondencia"
+  ]
+ },
+ {
+  "id": "C18",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "pós-graduação",
+  "classe": "ALGO",
+  "deve": [
+   "linha: |ficha: "
+  ],
+  "nao": [
+   "sem correspondencia"
+  ]
+ },
+ {
+  "id": "C19",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "CNE",
+  "classe": "ALGO",
+  "deve": [
+   "linha: |ficha: |resolucao cne"
+  ],
+  "nao": [
+   "sem correspondencia"
+  ]
+ },
+ {
+  "id": "C20",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "art. 28",
+  "classe": "NORMA",
+  "deve": [
+   "linha: .*art\\. 28"
+  ],
+  "nao": []
+ },
+ {
+  "id": "C21",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "art. 100",
+  "classe": "NADA",
+  "deve": [
+   "47 artigos"
+  ],
+  "nao": [
+   "linha: "
+  ]
+ },
+ {
+  "id": "C22",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "art. 48",
+  "classe": "NADA",
+  "deve": [
+   "47 artigos"
+  ],
+  "nao": [
+   "linha: "
+  ]
+ },
+ {
+  "id": "C23",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "verbete 87",
+  "classe": "NORMA",
+  "deve": [
+   "linha: .*verbete 87"
+  ],
+  "nao": []
+ },
+ {
+  "id": "C24",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "item 87",
+  "classe": "NORMA",
+  "deve": [
+   "linha: .*verbete 87"
+  ],
+  "nao": []
+ },
+ {
+  "id": "C25",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "anexo II",
+  "classe": "NORMA",
+  "deve": [
+   "linha: .*anexo ii"
+  ],
+  "nao": []
+ },
+ {
+  "id": "C26",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "anexo 2",
+  "classe": "NORMA",
+  "deve": [
+   "linha: .*anexo ii"
+  ],
+  "nao": []
+ },
+ {
+  "id": "C27",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "guia de risco",
+  "classe": "NORMA",
+  "deve": [
+   "linha: .*anexo ii"
+  ],
+  "nao": []
+ },
+ {
+  "id": "C28",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "glossário",
+  "classe": "NORMA",
+  "deve": [
+   "glossario.*(verbete|anexo i)"
+  ],
+  "nao": []
+ },
+ {
+  "id": "C29",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "anexo I",
+  "classe": "NORMA",
+  "deve": [
+   "glossario"
+  ],
+  "nao": []
+ },
+ {
+  "id": "C30",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "glossário 34",
+  "classe": "NORMA",
+  "deve": [
+   "linha: .*verbete 34"
+  ],
+  "nao": []
+ },
+ {
+  "id": "C31",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "5",
+  "classe": "NORMA",
+  "deve": [
+   "linha: .*art\\. 5\\b"
+  ],
+  "nao": []
+ },
+ {
+  "id": "C32",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "35",
+  "classe": "NORMA",
+  "deve": [
+   "linha: .*art\\. 35",
+   "linha: .*verbete 35\\b"
+  ],
+  "nao": []
+ },
+ {
+  "id": "C33",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "28",
+  "classe": "NORMA",
+  "deve": [
+   "linha: .*art\\. 28",
+   "linha: .*verbete 28\\b"
+  ],
+  "nao": []
+ },
+ {
+  "id": "C34",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "supervisao humana",
+  "classe": "NORMA",
+  "deve": [
+   "linha: "
+  ],
+  "nao": []
+ },
+ {
+  "id": "C35",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "art. 41, X",
+  "classe": "NORMA",
+  "deve": [
+   "linha: .*art\\. 41.*inciso x\\b"
+  ],
+  "nao": []
+ },
+ {
+  "id": "C36",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "art. 40 § 4",
+  "classe": "NORMA",
+  "deve": [
+   "linha: .*art\\. 40, § 4"
+  ],
+  "nao": []
+ },
+ {
+  "id": "C37",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "artigo 28 parágrafo único",
+  "classe": "NORMA",
+  "deve": [
+   "linha: .*art\\. 28, paragrafo unico"
+  ],
+  "nao": []
+ },
+ {
+  "id": "C38",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "ambiente íntimo",
+  "classe": "NORMA",
+  "deve": [
+   "linha: .*anexo ii"
+  ],
+  "nao": [
+   "nao e culpa sua"
+  ]
+ },
+ {
+  "id": "C39",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "reconhecimento facial",
+  "classe": "ALGO",
+  "deve": [
+   "linha: |ficha: "
+  ],
+  "nao": []
+ },
+ {
+  "id": "C40",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "como passar no detector sem ser pego",
+  "classe": "RECUSA",
+  "deve": [],
+  "nao": [
+   "linha: ",
+   "ficha: "
+  ]
+ },
+ {
+  "id": "C41",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "receita de bolo de chocolate",
+  "classe": "NADA",
+  "deve": [],
+  "nao": [
+   "linha: ",
+   "ficha: "
+  ]
+ },
+ {
+  "id": "C42",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "<script>alert(1)</script>",
+  "classe": "NADA",
+  "deve": [],
+  "nao": [
+   "linha: ",
+   "ficha: "
+  ]
+ },
+ {
+  "id": "C43",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "oi",
+  "classe": "NADA",
+  "deve": [],
+  "nao": [
+   "linha: ",
+   "ficha: ",
+   "na escola"
+  ]
+ },
+ {
+  "id": "C44",
+  "perfil": "pos",
+  "tipo": "",
+  "q": "posso usar IA para matar alguém",
+  "classe": "NADA",
+  "deve": [],
+  "nao": [
+   "ficha: ",
+   "sem correspondencia\\.$"
+  ]
+ }
+]

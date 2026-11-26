@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pode isso, Jane?</title>
+<link rel="stylesheet" href="estilo.css?v=30">
+<script src="sql-wasm.js" defer></script>
+<script src="motor.js?v=5.20" defer></script>
+<script src="triagem.js?v=5.20" defer></script>
+<script src="app.js?v=5.21" defer></script>
+</head>
+<body>
+<header><p class="brand">IA na educação <span class="sep" aria-hidden="true">·</span> <span class="junto">Resolução CNE/CP nº 1/2026</span></p><h1><span class="nome">Pode isso, Jane?</span> <span class="cards" aria-hidden="true"><i class="c-verde"></i><i class="c-amarelo"></i><i class="c-vermelho"></i></span></h1></header>
+<main>
+<section class="card guide inicio">
+<h2 class="sr-only">Encontre a sua situação</h2>
+<form id="question">
+<label for="level" class="rot">Qual é o seu perfil?</label>
+<select id="level">
+<option value="">Selecione seu perfil</option>
+<option value="basico">Estudante · fundamental e médio</option>
+<option value="iniciais">Estudante · 1º ao 5º ano</option>
+<option value="finais">Estudante · 6º ao 9º ano</option>
+<option value="medio">Estudante · ensino médio</option>
+<option value="graduacao">Estudante · graduação</option>
+<option value="pos">Estudante · pós-graduação</option>
+<option value="profBasico">Professor · fundamental e médio</option>
+<option value="profSuperior">Professor · graduação e pós-graduação</option>
+<option value="gestorEscolar">Gestor escolar</option>
+<option value="responsavel">Pai, mãe ou responsável</option>
+<option value="docenteFundamental">Professor · fundamental</option>
+<option value="docenteMedio">Professor · ensino médio</option>
+<option value="docenteSuperior">Professor · ensino superior</option>
+<option value="orientador">Orientador de pós-graduação</option>
+<option value="gestor">Gestor de escola</option>
+<option value="familia">Família ou responsável</option>
+</select>
+<div id="more" class="menu" hidden><p class="rot" id="rotulo-assunto">Escolha o assunto</p><div id="assuntos" class="assuntos" role="group" aria-labelledby="rotulo-assunto"></div><p class="rot rot-sit" id="rotulo-situacao">Escolha a situação</p><div id="level-examples" class="examples" role="group" aria-label="Situações deste assunto"></div></div>
+<details id="escrever" class="escrever" hidden><summary>Não achou? Escreva sua dúvida</summary>
+<label for="message">Conte em uma ou duas frases.</label>
+<textarea class="prompt" id="message" maxlength="600" aria-describedby="hint" placeholder="Ex.: usei IA no meu trabalho. Preciso contar?"></textarea>
+<p class="hint" id="hint" role="status"></p>
+<button class="primary" type="submit">Entender meu caso</button>
+</details>
+</form>
+<div id="care" hidden role="region" aria-label="Ajuda imediata"></div>
+<p id="status" role="status"></p>
+<p id="apoio" class="notice ajuda" hidden>Precisa de ajuda agora? <span class="junto"><a href="tel:188">CVV 188</a> (apoio emocional)</span><span class="sep" aria-hidden="true"> · </span><span class="junto"><a href="tel:100">Disque 100</a> (violência ou abuso)</span></p>
+</section>
+<div id="results"></div>
+<section class="card guide consulta">
+<h2 class="rot">Consultar a norma</h2>
+<form id="search"><label for="query" class="sr-only">Busque na resolução por assunto, artigo ou verbete, ou escreva a sua dúvida</label><div class="search-row"><input id="query" maxlength="200" placeholder="Ex.: art. 28 ou detector"><button type="submit">Buscar</button></div></form>
+<div id="legal-results" class="norma" aria-live="polite"></div>
+</section>
+</main>
+<footer>
+<p class="notice">Orientação informativa. Vale a regra da sua instituição.</p>
+<p class="notice ajuda">Precisa de ajuda agora? <span class="junto"><a href="tel:188">CVV 188</a> (apoio emocional)</span><span class="sep" aria-hidden="true"> · </span><span class="junto"><a href="tel:100">Disque 100</a> (violência ou abuso)</span></p>
+<p class="notice"><a href="https://www.in.gov.br/web/dou/-/resolucao-cne/cp-n-1-de-11-de-novembro-de-2026-744136563">Resolução CNE/CP nº 1/2026</a><span class="sep" aria-hidden="true"> · </span><span class="junto">Realização: <a href="https://iaeduca.online/">IAEduca</a><span id="visitas" class="visitas" hidden></span></span></p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,562 @@
+[
+ {
+  "id": "W01",
+  "perfil": "basico",
+  "tipo": "",
+  "q": "um moço da internet quer me encontrar no shopping",
+  "classe": "CUIDADO",
+  "deve": [
+   "disque 100"
+  ],
+  "nao": [
+   "foge do que",
+   "sem correspondencia",
+   "nao ficou claro"
+  ]
+ },
+ {
+  "id": "W02",
+  "perfil": "basico",
+  "tipo": "",
+  "q": "o youtuber que eu sigo pediu meu whatsapp",
+  "classe": "CUIDADO",
+  "deve": [
+   "disque 100"
+  ],
+  "nao": [
+   "foge do que",
+   "sem correspondencia",
+   "nao ficou claro"
+  ]
+ },
+ {
+  "id": "W03",
+  "perfil": "basico",
+  "tipo": "",
+  "q": "um cara do jogo pediu meu endereço",
+  "classe": "CUIDADO",
+  "deve": [
+   "disque 100"
+  ],
+  "nao": [
+   "foge do que",
+   "sem correspondencia",
+   "nao ficou claro"
+  ]
+ },
+ {
+  "id": "W04",
+  "perfil": "basico",
+  "tipo": "",
+  "q": "uma pessoa que conheci no tiktok quer saber onde eu moro",
+  "classe": "CUIDADO",
+  "deve": [
+   "disque 100"
+  ],
+  "nao": [
+   "foge do que",
+   "sem correspondencia",
+   "nao ficou claro"
+  ]
+ },
+ {
+  "id": "W05",
+  "perfil": "basico",
+  "tipo": "",
+  "q": "um homem do discord me chamou pra ir na casa dele",
+  "classe": "CUIDADO",
+  "deve": [
+   "disque 100"
+  ],
+  "nao": [
+   "foge do que",
+   "sem correspondencia",
+   "nao ficou claro"
+  ]
+ },
+ {
+  "id": "W06",
+  "perfil": "basico",
+  "tipo": "",
+  "q": "um streamer me ofereceu skin se eu ligar a câmera",
+  "classe": "CUIDADO",
+  "deve": [
+   "disque 100"
+  ],
+  "nao": [
+   "foge do que",
+   "sem correspondencia",
+   "nao ficou claro"
+  ]
+ },
+ {
+  "id": "W07",
+  "perfil": "basico",
+  "tipo": "",
+  "q": "um desconhecido pediu pra eu abrir a câmera",
+  "classe": "CUIDADO",
+  "deve": [
+   "disque 100"
+  ],
+  "nao": [
+   "foge do que",
+   "sem correspondencia",
+   "nao ficou claro"
+  ]
+ },
+ {
+  "id": "W08",
+  "perfil": "basico",
+  "tipo": "",
+  "q": "um cara mais velho me chama de linda no direct e pede pra apagar a conversa",
+  "classe": "CUIDADO",
+  "deve": [
+   "disque 100"
+  ],
+  "nao": [
+   "foge do que",
+   "sem correspondencia",
+   "nao ficou claro"
+  ]
+ },
+ {
+  "id": "W09",
+  "perfil": "basico",
+  "tipo": "",
+  "q": "um adulto me adicionou e fica perguntando se to sozinho em casa",
+  "classe": "CUIDADO",
+  "deve": [
+   "disque 100"
+  ],
+  "nao": [
+   "foge do que",
+   "sem correspondencia",
+   "nao ficou claro"
+  ]
+ },
+ {
+  "id": "W10",
+  "perfil": "basico",
+  "tipo": "",
+  "q": "um homem me mandou dinheiro no pix pelo jogo",
+  "classe": "CUIDADO",
+  "deve": [
+   "disque 100"
+  ],
+  "nao": [
+   "foge do que",
+   "sem correspondencia",
+   "nao ficou claro"
+  ]
+ },
+ {
+  "id": "W11",
+  "perfil": "basico",
+  "tipo": "",
+  "q": "um amigo virtual quer que eu mande foto de biquíni",
+  "classe": "CUIDADO",
+  "deve": [
+   "disque 100"
+  ],
+  "nao": [
+   "foge do que",
+   "sem correspondencia",
+   "nao ficou claro"
+  ]
+ },
+ {
+  "id": "W12",
+  "perfil": "basico",
+  "tipo": "",
+  "q": "o cara do free fire disse que é segredo nosso",
+  "classe": "CUIDADO",
+  "deve": [
+   "disque 100"
+  ],
+  "nao": [
+   "foge do que",
+   "sem correspondencia",
+   "nao ficou claro"
+  ]
+ },
+ {
+  "id": "W13",
+  "perfil": "basico",
+  "tipo": "",
+  "q": "conheci um homem no instagram e ele quer me ver sozinha",
+  "classe": "CUIDADO",
+  "deve": [
+   "disque 100"
+  ],
+  "nao": [
+   "foge do que",
+   "sem correspondencia",
+   "nao ficou claro"
+  ]
+ },
+ {
+  "id": "W14",
+  "perfil": "",
+  "tipo": "",
+  "q": "um moço da internet quer me encontrar no shopping",
+  "classe": "CUIDADO",
+  "deve": [
+   "disque 100"
+  ],
+  "nao": [
+   "foge do que",
+   "sem correspondencia",
+   "nao ficou claro"
+  ]
+ },
+ {
+  "id": "W15",
+  "perfil": "basico",
+  "tipo": "",
+  "q": "um desconhecido fica me ligando por vídeo de madrugada",
+  "classe": "CUIDADO",
+  "deve": [
+   "disque 100"
+  ],
+  "nao": [
+   "foge do que",
+   "sem correspondencia",
+   "nao ficou claro"
+  ]
+ },
+ {
+  "id": "W20",
+  "perfil": "responsavel",
+  "tipo": "",
+  "q": "um homem manda mensagens pro meu filho e dá crédito no jogo",
+  "classe": "AVISO",
+  "deve": [
+   "disque 100",
+   "safernet|conselho tutelar"
+  ],
+  "nao": [
+   "foge do que",
+   "sem correspondencia",
+   "nao ficou claro"
+  ]
+ },
+ {
+  "id": "W21",
+  "perfil": "profBasico",
+  "tipo": "",
+  "q": "vi no celular de um aluno conversa com adulto estranho",
+  "classe": "AVISO",
+  "deve": [
+   "disque 100",
+   "safernet|conselho tutelar"
+  ],
+  "nao": [
+   "foge do que",
+   "sem correspondencia",
+   "nao ficou claro"
+  ]
+ },
+ {
+  "id": "W22",
+  "perfil": "responsavel",
+  "tipo": "",
+  "q": "um desconhecido pediu o endereço da minha filha no jogo",
+  "classe": "AVISO",
+  "deve": [
+   "disque 100",
+   "safernet|conselho tutelar"
+  ],
+  "nao": [
+   "foge do que",
+   "sem correspondencia",
+   "nao ficou claro"
+  ]
+ },
+ {
+  "id": "W23",
+  "perfil": "responsavel",
+  "tipo": "",
+  "q": "minha filha ganhou um celular de um homem que conheceu na internet",
+  "classe": "AVISO",
+  "deve": [
+   "disque 100",
+   "safernet|conselho tutelar"
+  ],
+  "nao": [
+   "foge do que",
+   "sem correspondencia",
+   "nao ficou claro"
+  ]
+ },
+ {
+  "id": "W24",
+  "perfil": "responsavel",
+  "tipo": "",
+  "q": "um adulto pede para meu filho ligar a câmera no jogo",
+  "classe": "AVISO",
+  "deve": [
+   "disque 100",
+   "safernet|conselho tutelar"
+  ],
+  "nao": [
+   "foge do que",
+   "sem correspondencia",
+   "nao ficou claro"
+  ]
+ },
+ {
+  "id": "W25",
+  "perfil": "gestorEscolar",
+  "tipo": "",
+  "q": "um aluno recebe mensagens de um homem que oferece presentes",
+  "classe": "AVISO",
+  "deve": [
+   "disque 100",
+   "safernet|conselho tutelar"
+  ],
+  "nao": [
+   "foge do que",
+   "sem correspondencia",
+   "nao ficou claro"
+  ]
+ },
+ {
+  "id": "W26",
+  "perfil": "profBasico",
+  "tipo": "",
+  "q": "uma aluna disse que vai encontrar um rapaz que conheceu no instagram",
+  "classe": "AVISO",
+  "deve": [
+   "disque 100",
+   "safernet|conselho tutelar"
+  ],
+  "nao": [
+   "foge do que",
+   "sem correspondencia",
+   "nao ficou claro"
+  ]
+ },
+ {
+  "id": "W27",
+  "perfil": "responsavel",
+  "tipo": "",
+  "q": "meu filho tem um amigo adulto no discord que eu não conheço",
+  "classe": "AVISO",
+  "deve": [
+   "disque 100",
+   "safernet|conselho tutelar"
+  ],
+  "nao": [
+   "foge do que",
+   "sem correspondencia",
+   "nao ficou claro"
+  ]
+ },
+ {
+  "id": "W28",
+  "perfil": "responsavel",
+  "tipo": "",
+  "q": "um youtuber pediu o whatsapp da minha filha",
+  "classe": "AVISO",
+  "deve": [
+   "disque 100",
+   "safernet|conselho tutelar"
+  ],
+  "nao": [
+   "foge do que",
+   "sem correspondencia",
+   "nao ficou claro"
+  ]
+ },
+ {
+  "id": "W29",
+  "perfil": "profBasico",
+  "tipo": "",
+  "q": "um aluno contou que um homem do jogo pediu o endereço dele",
+  "classe": "AVISO",
+  "deve": [
+   "disque 100",
+   "safernet|conselho tutelar"
+  ],
+  "nao": [
+   "foge do que",
+   "sem correspondencia",
+   "nao ficou claro"
+  ]
+ },
+ {
+  "id": "W30",
+  "perfil": "responsavel",
+  "tipo": "",
+  "q": "tem um homem dando presentes pra minha filha pela internet",
+  "classe": "AVISO",
+  "deve": [
+   "disque 100",
+   "safernet|conselho tutelar"
+  ],
+  "nao": [
+   "foge do que",
+   "sem correspondencia",
+   "nao ficou claro"
+  ]
+ },
+ {
+  "id": "W31",
+  "perfil": "gestorEscolar",
+  "tipo": "",
+  "q": "uma mãe achou conversas da filha com um homem mais velho",
+  "classe": "AVISO",
+  "deve": [
+   "disque 100",
+   "safernet|conselho tutelar"
+  ],
+  "nao": [
+   "foge do que",
+   "sem correspondencia",
+   "nao ficou claro"
+  ]
+ },
+ {
+  "id": "W40",
+  "perfil": "basico",
+  "tipo": "",
+  "q": "o youtuber que eu sigo ensina a usar ia, posso confiar?",
+  "classe": "LIVRE",
+  "deve": [],
+  "nao": [
+   "safernet",
+   "ligue 190",
+   "conselho tutelar"
+  ]
+ },
+ {
+  "id": "W41",
+  "perfil": "basico",
+  "tipo": "",
+  "q": "a professora pediu meu whatsapp pro grupo da turma",
+  "classe": "LIVRE",
+  "deve": [],
+  "nao": [
+   "safernet",
+   "ligue 190",
+   "conselho tutelar"
+  ]
+ },
+ {
+  "id": "W42",
+  "perfil": "basico",
+  "tipo": "",
+  "q": "um amigo da escola quer me encontrar no shopping pra fazer o trabalho com ia",
+  "classe": "LIVRE",
+  "deve": [],
+  "nao": [
+   "safernet",
+   "ligue 190",
+   "conselho tutelar"
+  ]
+ },
+ {
+  "id": "W43",
+  "perfil": "basico",
+  "tipo": "",
+  "q": "o chatgpt pediu meu endereço, posso dar?",
+  "classe": "LIVRE",
+  "deve": [],
+  "nao": [
+   "safernet",
+   "ligue 190",
+   "conselho tutelar"
+  ]
+ },
+ {
+  "id": "W44",
+  "perfil": "responsavel",
+  "tipo": "",
+  "q": "a escola pediu o whatsapp do meu filho para um app de ia",
+  "classe": "LIVRE",
+  "deve": [],
+  "nao": [
+   "safernet",
+   "ligue 190",
+   "conselho tutelar"
+  ]
+ },
+ {
+  "id": "W45",
+  "perfil": "responsavel",
+  "tipo": "",
+  "q": "o professor manda mensagens pro meu filho pelo aplicativo da escola",
+  "classe": "LIVRE",
+  "deve": [],
+  "nao": [
+   "safernet",
+   "ligue 190",
+   "conselho tutelar"
+  ]
+ },
+ {
+  "id": "W46",
+  "perfil": "responsavel",
+  "tipo": "",
+  "q": "meu filho ganhou crédito no jogo educativo da escola",
+  "classe": "LIVRE",
+  "deve": [],
+  "nao": [
+   "safernet",
+   "ligue 190",
+   "conselho tutelar"
+  ]
+ },
+ {
+  "id": "W47",
+  "perfil": "profBasico",
+  "tipo": "",
+  "q": "vi no celular de um aluno uma conversa com o chatgpt",
+  "classe": "LIVRE",
+  "deve": [],
+  "nao": [
+   "safernet",
+   "ligue 190",
+   "conselho tutelar"
+  ]
+ },
+ {
+  "id": "W48",
+  "perfil": "basico",
+  "tipo": "",
+  "q": "um moço da secretaria pediu meu documento",
+  "classe": "LIVRE",
+  "deve": [],
+  "nao": [
+   "safernet",
+   "ligue 190",
+   "conselho tutelar"
+  ]
+ },
+ {
+  "id": "W49",
+  "perfil": "basico",
+  "tipo": "",
+  "q": "posso ligar a câmera na aula online com ia?",
+  "classe": "LIVRE",
+  "deve": [],
+  "nao": [
+   "safernet",
+   "ligue 190",
+   "conselho tutelar"
+  ]
+ },
+ {
+  "id": "W50",
+  "perfil": "responsavel",
+  "tipo": "",
+  "q": "o aplicativo da escola pede o endereço da minha filha",
+  "classe": "LIVRE",
+  "deve": [],
+  "nao": [
+   "safernet",
+   "ligue 190",
+   "conselho tutelar"
+  ]
+ }
+]

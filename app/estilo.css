@@ -1,0 +1,266 @@
+:root{
+ --tinta:#16302a;--tinta-suave:#4d6158;--fundo:#f6f4ec;--papel:#fffefa;--linha:#d9dfd4;--verde-jane:#133b32;
+ --vermelho:#9b2318;--vermelho-fundo:#fbecea;--amarelo:#7a4f00;--amarelo-fundo:#fdf3d7;--amarelo-cartao:#e3a400;
+ --verde:#1b6a43;--verde-fundo:#e6f3ea;--azul:#1f4e79;--azul-fundo:#e8f0f7;--foco:#a34e18;
+ font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--tinta);background:var(--fundo);line-height:1.55
+}
+*{box-sizing:border-box}
+body{margin:0}
+button,textarea,input,select{font:inherit}
+button{cursor:pointer}
+a{color:#175a49}
+:focus-visible{outline:3px solid var(--foco);outline-offset:3px}
+[hidden]{display:none!important}
+h1,h2,h3{line-height:1.2;margin:0}
+
+/* Cabeçalho */
+header{background:var(--verde-jane);color:#f9f7eb;padding:26px 16px 30px}
+header>*{width:min(760px,100%);margin-left:auto;margin-right:auto}
+header p{margin:0 auto;color:#e1eadc}
+header .brand{font-weight:700;letter-spacing:.08em;font-size:.78rem}
+header h1{font-family:Georgia,"Times New Roman",serif;font-weight:normal;font-size:clamp(34px,7vw,56px);margin:10px auto 8px;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+header .base{margin-top:8px;font-size:.86rem;opacity:.9}
+.cards{display:inline-flex;gap:5px}
+.cards i{display:block;width:.34em;height:.5em;border-radius:3px;transform:rotate(8deg)}
+.c-verde{background:#3fae6f}.c-amarelo{background:var(--amarelo-cartao)}.c-vermelho{background:#d6453a}
+
+/* Estrutura */
+main,footer{width:min(760px,calc(100% - 24px));margin:0 auto}
+.card{background:var(--papel);border:1px solid var(--linha);border-radius:14px;padding:clamp(16px,3vw,26px);margin:18px 0}
+.guide>h2{font-family:Georgia,serif;font-size:clamp(22px,4vw,28px);margin-bottom:12px}
+label{display:block;font-weight:600;margin-top:4px}
+form{margin:0}
+
+/* Formulário */
+#level{display:block;width:100%;min-height:46px;padding:8px 10px;margin:6px 0 16px;border:1px solid #9eaaa0;border-radius:8px;background:white;color:var(--tinta)}
+.prompt{width:100%;min-height:104px;padding:10px;border:1px solid #9eaaa0;border-radius:8px;background:white;margin-top:6px;font-size:1rem;resize:vertical}
+.hint{margin:4px 0 12px;font-size:.86rem;color:var(--tinta-suave)}
+button{border:1px solid var(--linha);border-radius:9px;background:var(--papel);color:var(--verde-jane);padding:10px 14px;font-weight:600;min-height:44px}
+button:hover{border-color:var(--verde-jane)}
+.primary{background:var(--verde-jane);color:white;border-color:var(--verde-jane);font-size:1.05rem;padding:12px 20px;width:100%}
+button[aria-pressed=true]{background:var(--verde-jane);color:white;border-color:var(--verde-jane)}
+#status{margin:14px 0 0;color:var(--tinta-suave);font-size:.98rem}
+#status:empty{margin:0}
+
+/* Ajuda imediata */
+.care{background:#fff7e0;border:2px solid var(--amarelo-cartao);border-radius:12px;padding:16px;margin-top:14px}
+.care h2{font-size:1.2rem;margin-bottom:6px}
+.care p{margin:.4em 0}
+.care-actions{display:flex;flex-direction:column;gap:8px;margin-top:12px!important}
+.care-actions a{display:block;background:var(--verde-jane);color:white;text-decoration:none;font-weight:700;padding:13px 16px;border-radius:9px;text-align:center}
+
+/* Ficha */
+.result{padding:0;overflow:hidden}
+.result:focus,.result:focus-visible{outline:none}
+.result>*{margin-left:clamp(16px,3vw,26px);margin-right:clamp(16px,3vw,26px)}
+.verdict{margin:0!important;padding:clamp(16px,3vw,24px) clamp(16px,3vw,26px);display:flex;gap:14px;align-items:flex-start;border-bottom:1px solid var(--linha)}
+.cartao{flex:none;width:26px;height:38px;border-radius:5px;margin-top:4px;transform:rotate(-6deg);box-shadow:0 1px 2px rgba(0,0,0,.25)}
+.verdict-label{margin:0 0 4px;font-weight:800;font-size:.82rem;letter-spacing:.07em;text-transform:uppercase}
+.verdict h2{font-family:Georgia,serif;font-size:clamp(21px,4.4vw,27px);font-weight:normal}
+.sinal-vermelho .verdict{background:var(--vermelho-fundo)}.sinal-vermelho .cartao{background:#c9352b}.sinal-vermelho .verdict-label{color:var(--vermelho)}
+.sinal-amarelo .verdict{background:var(--amarelo-fundo)}.sinal-amarelo .cartao{background:var(--amarelo-cartao)}.sinal-amarelo .verdict-label{color:var(--amarelo)}
+.sinal-verde .verdict{background:var(--verde-fundo)}.sinal-verde .cartao{background:#2f9a61}.sinal-verde .verdict-label{color:var(--verde)}
+.sinal-azul .verdict{background:var(--azul-fundo)}.sinal-azul .cartao{background:#3c78b0;border-radius:50%;width:30px;height:30px;transform:none}.sinal-azul .verdict-label{color:var(--azul)}
+.eyeline{font-size:.82rem;color:var(--tinta-suave);margin-top:14px;margin-bottom:2px}
+.question{margin-top:0;margin-bottom:0;color:var(--tinta-suave)}
+.told{background:#f1f4ec;border-left:4px solid #637c64;padding:10px 12px;border-radius:6px;margin-top:12px;margin-bottom:0}
+.entry{padding:14px 0 2px;border-top:1px solid var(--linha);margin-top:14px}
+.entry h3{font-size:.82rem;letter-spacing:.06em;text-transform:uppercase;color:var(--tinta-suave);margin-bottom:6px}
+.entry p{margin:.2em 0}
+.steps,.checks{margin:.2em 0;padding-left:1.4em}
+.steps li,.checks li{margin:.35em 0;padding-left:.2em}
+.steps li::marker{font-weight:800;color:var(--verde-jane)}
+.checks{list-style:none;padding-left:0}
+.checks li{padding-left:1.7em;position:relative}
+.checks li::before{content:'';position:absolute;left:0;top:.28em;width:1em;height:1em;border:2px solid #7d8f84;border-radius:3px}
+.result>.norma{margin-top:14px;margin-bottom:16px;border-top:1px solid var(--linha)}
+.result>h2{font-family:Georgia,serif;font-size:1.4rem;margin-top:4px}
+.result>.eyeline:first-child{margin-top:18px}
+.result>div.norma,.result>p:last-child{margin-bottom:18px}
+.draft{white-space:pre-wrap}
+.source{font-size:.92em}
+fieldset{border:1px solid var(--linha);border-radius:9px;margin-top:16px;margin-bottom:16px;padding:13px;min-width:0}
+legend{font-weight:700}
+fieldset button{display:block;width:100%;text-align:left;margin:6px 0}
+.result>section{margin-bottom:14px}
+dl{margin-bottom:0}dt{font-weight:bold;margin-top:.7em}dd{margin:0}
+
+/* Texto da norma */
+details{margin-top:8px}
+summary{font-weight:600;cursor:pointer;min-height:44px;display:flex;align-items:center;gap:8px;list-style:none}
+summary::-webkit-details-marker{display:none}
+summary::before{content:'▸';flex:none;color:var(--tinta-suave)}
+details[open]>summary::before{content:'▾'}
+pre{white-space:pre-wrap;overflow-wrap:anywhere;font:inherit;margin:.2em 0 .8em;padding:10px 12px;background:#f3f1e8;border-radius:8px}
+pre.layout-table{white-space:pre;overflow:auto;font:0.79rem/1.35 ui-monospace,monospace}
+
+/* Perguntas frequentes e roteiros */
+#more{padding-top:8px;padding-bottom:8px}
+#more>summary{font-family:Georgia,serif;font-size:1.15rem}
+.examples{display:grid;gap:2px;margin:4px 0 10px}
+.examples button{text-align:left;border:0;border-top:1px solid var(--linha);border-radius:0;background:none;font-weight:500;color:var(--tinta);padding:12px 4px}
+.examples button::after{content:' ›';color:var(--tinta-suave)}
+.examples button:hover{background:#f1f4ec}
+.buttons{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 0}
+.topics .hint{flex-basis:100%;margin:8px 0 0}
+
+/* Busca */
+.search-row{display:flex;gap:8px;margin-top:6px}
+#query{flex:1;min-width:0;min-height:44px;padding:9px 10px;border:1px solid #9eaaa0;border-radius:8px;background:white}
+#legal-results{margin-top:8px}
+
+footer{padding:8px 0 32px;font-size:.9rem;color:var(--tinta-suave)}
+footer a{display:inline-block;padding:12px 0}
+.notice{font-size:.86rem}
+
+/* Anos iniciais: letra maior e mais ar */
+body[data-perfil=iniciais] .result,body[data-perfil=iniciais] .care{font-size:1.1rem;line-height:1.65}
+body[data-perfil=iniciais] .verdict h2{font-size:clamp(23px,5vw,30px)}
+
+@media(min-width:620px){.primary{width:auto}.care-actions{flex-direction:row;flex-wrap:wrap}}
+@media print{
+ header{background:white;color:black;padding:0}header p{color:black}.cards,.guide,#more,#care,.no-print,form{display:none!important}
+ main,footer{width:100%}.card{border:0}.entry{break-inside:avoid}details>*{display:block!important}
+}
+.result>h2:first-child{margin-top:18px}
+.result>button{margin-bottom:18px}
+
+/* Efígie da Jane */
+.moeda{width:clamp(56px,13vw,84px);height:auto;flex:none;filter:drop-shadow(0 2px 3px rgba(0,0,0,.35))}
+header h1{flex-wrap:nowrap}
+header .lema{font-size:clamp(.84rem,4.1vw,1.05rem);white-space:nowrap}
+.hint[data-estado=perto]{color:#7a4f00;font-weight:600}
+.hint[data-estado=cheio]{color:#9b2318;font-weight:700}
+/* Texto do cabeçalho alinhado ao conteúdo dos cartões (margem do cartão + borda + recuo interno) */
+header{padding-left:12px;padding-right:12px}
+header>*{width:min(760px,100%);padding-left:calc(clamp(16px,3vw,26px) + 1px);padding-right:calc(clamp(16px,3vw,26px) + 1px)}
+#hint:empty{display:none}
+.prompt{margin-bottom:12px}
+#hint{margin-top:-6px}
+.modelo{background:#f3f1e8;border-radius:8px;padding:12px}
+.modelo .draft{margin:0 0 10px}
+.modelo button{min-height:44px}
+footer{text-align:center;padding:4px 0 28px}
+footer .notice{margin:0;font-size:.84rem}
+footer a{padding:12px 4px}
+
+/* Menu de assuntos (v4): a escolha vem antes do texto livre. */
+.menu{margin:14px 0 6px;border:1px solid var(--linha);border-radius:12px;padding:4px 12px 8px;background:#fbfcf8}
+.menu>summary{font-weight:700;padding:10px 0;cursor:pointer}
+.assuntos{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:4px 0 8px}
+.assuntos button{text-align:left;font-size:.95rem;line-height:1.25;padding:10px 12px}
+.menu .examples{margin:0 0 4px}
+@media(min-width:640px){.assuntos{grid-template-columns:1fr 1fr 1fr}}
+@media print{.menu{display:none!important}}
+/* Acessibilidade: zoom de 200% e telas muito estreitas (WCAG 1.4.4 e 1.4.10). */
+button,summary,label,h1,h2,h3,p,li{overflow-wrap:anywhere}
+@media(max-width:300px){header .lema{white-space:normal}header h1{flex-wrap:wrap}.assuntos{grid-template-columns:1fr}.search-row{flex-wrap:wrap}header h1{font-size:28px}}
+/* Texto livre recolhido: o menu é o caminho principal. */
+.escrever{margin-top:10px}
+.escrever>summary{cursor:pointer;color:#175a49;text-decoration:underline;font-weight:600;min-height:44px;display:flex;align-items:center;list-style:none}
+.escrever>summary::-webkit-details-marker{display:none}
+.escrever[open]>summary{text-decoration:none;color:var(--tinta)}
+.escrever label{margin-top:8px}
+@media print{.escrever{display:none!important}}
+/* Ficha aberta pelo menu: a situação escolhida vem antes do veredito. */
+.result>.asked{margin:0!important;padding:14px clamp(16px,3vw,26px) 12px;font-weight:600;font-size:1.02rem;line-height:1.35;border-bottom:1px solid var(--linha);background:var(--papel)}
+/* Título só para leitor de tela. */
+.sr-only{position:absolute!important;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0 0 0 0);clip-path:inset(50%);white-space:nowrap;border:0}
+.guide>label:first-of-type,.guide>form>label:first-child{margin-top:0}
+/* v4.5: perfil e assunto no mesmo nível, direto no cartão, com o mesmo rótulo. */
+.rot{font-family:Georgia,serif;font-weight:700;font-size:1.08rem;margin:0 0 8px;display:block}
+.menu{margin:0;border:0;border-radius:0;padding:0;background:none}
+#level{margin:0 0 18px}
+.menu .assuntos{margin-top:0}
+.junto{white-space:nowrap}
+/* Lista "Você quis dizer" do texto livre. */
+.candidatas{padding:clamp(16px,3vw,26px)!important}
+.candidatas>*{margin-left:0!important;margin-right:0!important}
+.candidatas h2{font-family:Georgia,serif;font-size:1.25rem;margin-bottom:6px}
+.candidatas .nenhuma{color:var(--tinta-suave)}
+/* "Perguntas para conferir": marcador neutro, sem cara de caixa de marcar. */
+.checks li{padding-left:1.1em}
+.checks li::before{content:'';left:.1em;top:.62em;width:.38em;height:.38em;border:0;border-radius:50%;background:#7d8f84}
+#search .search-row{margin-top:8px}
+/* v5.3: campo de texto livre retirado da tela; ajuda fixa no rodapé. */
+.escrever[hidden]{display:none!important}
+.ajuda a{white-space:nowrap}
+/* v5.4: cabeçalho enxuto (duas linhas) e os três rótulos do mesmo tamanho. */
+header{padding-top:20px;padding-bottom:20px}
+header .brand{font-size:clamp(.66rem,3.05vw,.78rem);letter-spacing:.05em}
+header h1{margin:8px auto 0}
+h2.rot{font-size:1.08rem;line-height:1.5;margin:0 0 8px}
+#search .search-row{margin-top:0}
+/* v5.5: linha de cima do cabeçalho em escrita normal, maior e sem negrito. */
+header .brand{font-size:clamp(.8rem,3.6vw,.9rem);letter-spacing:.01em;font-weight:500}
+
+/* v5.8: quadro do Anexo II em blocos; acolhimento e fichas dentro da caixa de busca. */
+.quadro{margin:.2em 0 .8em;padding:4px 12px 10px;background:#f3f1e8;border-radius:8px}
+.quadro section+section{border-top:1px solid var(--linha);margin-top:10px}
+.quadro h4{margin:12px 0 4px;font-size:1rem}
+.quadro p{margin:.35em 0}
+#legal-results .care{margin-bottom:12px}
+#legal-results .examples{margin-top:8px}
+.examples button[aria-current=true]{font-weight:700}
+
+/* v5.21: acabamento visual (auditoria estética, 26/11/2026). */
+/* Serifa da marca também no Android, onde não há Georgia. */
+header h1,.rot,h2.rot,.verdict h2,.guide>h2,.result>h2,.candidatas h2,#more>summary{font-family:Georgia,"Noto Serif","Droid Serif","Source Serif Pro",serif}
+.rot,h2.rot{font-weight:600}
+/* Cores um pouco mais contidas, para não estourar em telas de cores vivas. */
+:root{--amarelo-cartao:#d49b1c;--amarelo-fundo:#faf1da}
+.c-verde{background:#3a9a64}.c-vermelho{background:#c8473d}
+/* Página ocupa a altura toda: rodapé embaixo, sem metade vazia no meio. */
+body{min-height:100vh;min-height:100dvh;display:flex;flex-direction:column}
+main{flex:1 0 auto}
+footer{margin-top:auto}
+@media(min-width:900px){header{padding-top:36px;padding-bottom:36px}main{margin-top:10px}}
+/* Título inteiro numa linha; os cartões andam junto com o nome. */
+header h1{font-size:clamp(28px,8vw,56px);gap:10px;flex-wrap:wrap}
+header h1 .nome{white-space:nowrap}
+/* Linha de cima: no celular, duas linhas sem ponto solto. */
+@media(max-width:420px){header .brand .sep{display:none}header .brand .junto{display:block}}
+/* Ponto de partida: o perfil tem destaque; a consulta à norma é secundária. */
+.inicio{border-color:#c4cfc3;box-shadow:0 1px 2px rgba(19,59,50,.06),0 6px 18px rgba(19,59,50,.06)}
+#level{appearance:none;-webkit-appearance:none;border:2px solid var(--verde-jane);min-height:52px;font-size:1.05rem;padding:10px 42px 10px 14px;background:#fffefb url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='9' viewBox='0 0 14 9'%3E%3Cpath d='M1 1l6 6 6-6' fill='none' stroke='%23133b32' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") no-repeat right 15px center/14px 9px;cursor:pointer}
+#level:hover{background-color:#f6f9f4}
+.inicio:not(:has(#more:not([hidden]))) #level{margin-bottom:0}
+.consulta{background:transparent;box-shadow:none}
+.consulta h2.rot{font-size:1rem}
+#query{background:#fffefb}
+#query::placeholder{font-size:.95rem}
+/* Assuntos: palavra inteira (sem "Acessibilidad/e"), peso mais leve, último botão sem vaga sobrando. */
+.assuntos button{overflow-wrap:normal;hyphens:manual;-webkit-hyphens:manual;font-weight:500;font-size:.94rem;min-height:48px}
+.assuntos button[aria-pressed=true]{font-weight:600}
+.assuntos button:last-child:nth-child(odd){grid-column:1/-1}
+@media(min-width:640px){
+ .assuntos button:last-child:nth-child(odd){grid-column:auto}
+ .assuntos button:last-child:nth-child(3n+2){grid-column:span 2}
+}
+/* Situações: rótulo próprio, seta alinhada à direita, item atual marcado. */
+.rot-sit{margin-top:22px}
+.rot-sit:has(+ #level-examples:empty){display:none}
+.examples button{display:flex;align-items:flex-start;gap:12px;padding:13px 8px;text-wrap:pretty}
+.examples button::after{content:'›';margin-left:auto;flex:none;font-size:1.25em;line-height:1.05;color:var(--tinta-suave)}
+.examples button[aria-current=true]{background:#f1f4ec;box-shadow:inset 3px 0 0 var(--verde-jane)}
+/* Ficha: veredito com mais largura no celular, sem palavra órfã. */
+.verdict h2,.entry p,.asked{text-wrap:pretty}
+@media(max-width:480px){.verdict{gap:10px}.cartao{width:18px;height:27px}.sinal-azul .cartao{width:22px;height:22px}.verdict h2{font-size:20px;line-height:1.3}}
+.eyeline{font-size:.88rem;margin-top:16px}
+.entry h3{color:var(--verde-jane)}
+/* Rodapé: ritmo regular, sem vãos dos links nem "·" no fim da linha. */
+footer a{display:inline;padding:12px 0}
+footer .notice+.notice{margin-top:10px}
+footer{padding-top:12px}
+.ajuda .sep,footer .sep{white-space:normal}
+@media(max-width:480px){
+ footer .sep,.ajuda .sep{display:none}
+ footer .junto,.ajuda .junto{display:block;margin-top:4px}
+ footer .notice{line-height:1.7}
+}
+/* Tela inicial em tela grande: o bloco fica no centro da altura, não colado no alto. */
+@media(min-width:900px) and (min-height:700px){
+ main{display:flex;flex-direction:column}
+ body:not(:has(#more:not([hidden]))):not(:has(#results>*)):not(:has(#legal-results>*)):not(:has(#care:not([hidden]))) main{justify-content:center;padding-bottom:6vh}
+}
+@media(max-width:420px){#query::placeholder{font-size:.86rem}.consulta .search-row button{padding:10px 12px}}
