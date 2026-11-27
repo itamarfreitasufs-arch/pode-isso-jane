@@ -2,7 +2,7 @@
 const fs=require('node:fs'),vm=require('node:vm'),path=require('node:path');
 const [dist,perfil,...qs]=process.argv.slice(2);const d=path.resolve(dist);
 const initSqlJs=()=>require(path.join(d,'sql-wasm.js'))({locateFile:f=>path.join(d,f)});
-const fetch=async p=>({ok:true,arrayBuffer:async()=>fs.readFileSync(path.join(d,p))});
+const fetch=async p=>({ok:true,arrayBuffer:async()=>fs.readFileSync(path.join(d,p.split('?')[0]))});
 const code=['motor','triagem'].map(n=>fs.readFileSync(path.join(d,n+'.js'),'utf8')).join('\n');
 vm.runInNewContext(code+`
 (async()=>{const base=await carregarBase();

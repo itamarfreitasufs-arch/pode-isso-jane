@@ -17,6 +17,9 @@ base.CONCEITOS.update(sit_prof.CONCEITOS)
 for k, v in sit_prof.AMPLIA.items(): base.CONCEITOS[k] += '|' + v
 base.CONCEITOS.update(sit_ge.CONCEITOS)
 base.CONCEITOS.update(sit_fa.CONCEITOS)
+import sit_v523
+base.CONCEITOS.update(sit_v523.CONCEITOS)
+for k, v in sit_v523.AMPLIA.items(): base.CONCEITOS[k] += '|' + v
 base.MENSAGENS['perfil_inativo'] = sit_fa.MENSAGEM_INATIVO if 'responsavel' in ATIVOS else sit_prof.MENSAGEM_INATIVO if 'profBasico' in ATIVOS else sit_bas.MENSAGEM_INATIVO if 'basico' in ATIVOS else sit_gra.MENSAGEM_INATIVO if 'graduacao' in ATIVOS else sit_pos.MENSAGEM_INATIVO
 shutil.copyfile(orig, dest)
 db = sqlite3.connect(dest)
@@ -82,6 +85,18 @@ for id_, campos in sit_v522.AJUSTES.items():
     alvo = [s for s in sits if s['id'] == id_]
     assert len(alvo) == 1, id_
     alvo[0].update(campos)
+# v5.23: correções do teste com graduandos.
+for id_, campos in sit_v523.AJUSTES.items():
+    alvo = [s for s in sits if s['id'] == id_]
+    assert len(alvo) == 1, id_
+    alvo[0].update(campos)
+for depois_de, ficha in sit_v523.NOVAS:
+    pos = [n for n, s in enumerate(sits) if s['id'] == depois_de]
+    assert len(pos) == 1, depois_de
+    sits.insert(pos[0] + 1, ficha)
+# a ficha das vírgulas abre a lista de "Avisar ou declarar o uso"
+_rev = [s for s in sits if s['id'] == 'gr_revisao'][0]; sits.remove(_rev)
+sits.insert([n for n, s in enumerate(sits) if s['id'] == 'gr_disc_declarar'][0], _rev)
 todos_ids = {s['id'] for s in sits}; todos_nucleos = {s['nucleo'] for s in sits}
 sits = [dict(s, perfis=[p for p in s['perfis'] if p in ATIVOS]) for s in sits if any(p in ATIVOS for p in s['perfis'])]
 # Dispositivos fora do corpo da resolução: verbetes do Glossário (Anexo I) e o Guia de Risco (Anexo II).

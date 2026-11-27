@@ -1,4 +1,4 @@
-# Histórico detalhado das versões 5.9 a 5.22
+# Histórico detalhado das versões 5.9 a 5.23
 
 Notas de trabalho escritas a cada versão, na ordem em que foram registradas. O resumo, da mais nova para a mais antiga, está em `CHANGELOG.md`. Nomes de pasta antigos: `dist_pos/` é hoje `app/`; os scripts de `publicar/` (envio ao servidor e remendos `c5xx.py`, já aplicados às fontes) não fazem parte desta distribuição, exceto `ui.cjs`, `ui2.cjs` e `todas.sh` (agora em `testes/`) e os geradores de bateria (agora em `congelado/geradores/`).
 
@@ -165,3 +165,12 @@ Só mudaram index.html, estilo.css e app.js (em dist/ e app/) (o "·" da linha d
 
 ## v5.22 (27/11/2026): ficha das entrevistas do TCC
 No teste dos alunos (26/11), só 4 de 13 entenderam "não pode" na ficha gr_dados. Ela e as irmãs pos_dados e ps_dados_pesquisa passam a cartão vermelho ("Não"), com "Não." na primeira linha e a saída legítima (ferramenta da instituição, projeto e termo, anonimização) só no "O que fazer". Textos em construir/sit_v522.py, aplicados no fim de build.py. Só mudou o banco (app/norma.sqlite) (3 linhas de situacao). Baterias de testes/todas.sh idênticas à v5.21.
+
+## v5.23 (26/11/2026): correções do teste com graduandos
+Itens 1 a 11 do parecer do teste com alunos de graduação (os itens 12 a 14 são do formulário). Remendo em `construir/sit_v523.py`, aplicado em build.py depois do da v5.22.
+- Respostas que abrem com "Sim" ou "Não" claros em gr_disciplina, gr_tcc, gr_ead (agora "Não"), gr_pratica, gr_estagio, gr_declarar, gr_revisao, pos_gravar, gr_camera, gr_textos, sup_facial, gr_monitor; modelo de declaração em gr_disc_declarar.
+- Fichas novas da graduação: gr_revisar_usar (corrigir vírgulas e ortografia), gr_estudar (resumir e fichar para estudar), gr_como_declarar (como escrever a declaração, com modelo), gr_reescrevi (texto da IA reescrito: "Não"), gr_anulou (trabalho anulado ou zerado por uso de IA).
+- Busca: "professor deu minha nota usando IA" leva a gr_correcao_ia; "feito totalmente por IA" a gr_autoria; botão "Nenhuma dessas" na lista de "Você quis dizer".
+- Rodapé: "O Jane não usa inteligência artificial: as respostas são fichas escritas a partir da resolução."
+- Baterias de testes/todas.sh iguais à v5.22; testes/proprias.cjs 354/357 (as mesmas 3 falhas de antes).
+- Ficou de fora: "Preciso avisar se usar para corrigir ortografia?" sem a palavra IA cai em "fora"; os textos "Por quê" não foram simplificados; as fichas novas existem só no perfil de graduação.

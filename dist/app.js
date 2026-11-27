@@ -460,6 +460,12 @@ async function buscar() {
     botao.onclick = () => navegar({p: ficha.perfil || nivelSelecionado.value || ficha.situacao.perfis[0], a: ficha.situacao.assunto, s: ficha.situacao.id});
     lista.append(botao);
    });
+   // v5.23: saída para quem não se reconhece em nenhuma das fichas sugeridas.
+   const nenhuma = element('button', 'Nenhuma destas');
+   nenhuma.type = 'button';
+   nenhuma.className = 'nenhuma-destas';
+   nenhuma.onclick = () => caixaBusca.replaceChildren(element('p', 'O Jane só responde às situações que estão nas fichas. Para essa dúvida, veja a regra do seu curso ou pergunte ao professor ou à coordenação. Você também pode procurar pelo assunto no menu acima.', 'nenhuma'));
+   lista.append(nenhuma);
    itens.push(lista);
   }
   itens.push(...r.linhas.map(sourceDetails));

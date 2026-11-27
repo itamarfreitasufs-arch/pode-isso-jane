@@ -2,7 +2,15 @@
 
 Resumo, da mais nova para a mais antiga. As notas completas de cada versão, com as baterias e os critérios, estão em [docs/historico_detalhado.md](docs/historico_detalhado.md).
 
-## 5.22 (27/11/2026)
+## 5.23 (26/11/2026)
+- Correções do teste com alunos de graduação (itens 1 a 11 do parecer). Doze fichas da graduação passam a abrir com "Sim" ou "Não" claros (disciplina, TCC, EaD, prática, estágio, declarar, revisão, gravar aula, câmera, textos, reconhecimento facial, monitoramento) e a ficha de declarar na disciplina ganha modelo de declaração.
+- Cinco fichas novas na graduação: corrigir vírgulas e ortografia, resumir e fichar para estudar, como escrever a declaração (com modelo), texto da IA reescrito ("Não") e trabalho anulado ou zerado por uso de IA.
+- Busca: "professor deu minha nota usando IA" leva à ficha da correção por IA; "feito totalmente por IA", à de autoria; botão "Nenhuma dessas" na lista de "Você quis dizer".
+- Rodapé: "O Jane não usa inteligência artificial: as respostas são fichas escritas a partir da resolução."
+- Textos em `construir/sit_v523.py`, aplicados em `build.py` depois dos da 5.22. Baterias iguais às da 5.22; coerência interna 354/357 (as mesmas três falhas de antes).
+- Ficou de fora: "Preciso avisar se usar para corrigir ortografia?" sem a palavra IA cai fora do escopo; os textos "Por quê" não foram simplificados; as fichas novas existem só no perfil de graduação.
+
+## 5.22 (26/11/2026)
 - Correção vinda do teste com alunos de graduação (26/11): só 4 de 13 entenderam "não pode" na ficha das entrevistas do TCC (`gr_dados`). Ela e as irmãs da pós (`pos_dados`) e do professor (`ps_dados_pesquisa`) passam ao veredito "Não", com "Não." na primeira linha e a saída legítima (ferramenta da instituição, projeto e termo, anonimização) só em "O que fazer". Textos em `construir/sit_v522.py`, aplicados no fim de `build.py`. Só o banco mudou; baterias idênticas às da 5.21.
 
 ## 5.21 (26/11/2026)

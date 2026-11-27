@@ -1,6 +1,6 @@
 # Avaliação
 
-Resultados da versão 5.22 nesta distribuição, obtidos com `bash testes/todas.sh`, `bash testes/pos.sh` e `bash testes/tudo.sh` em 26/11/2026. A 5.21 mudou só a aparência e a 5.22 só o texto de três fichas; os números são os mesmos da 5.20. Os arquivos de `app/` gerados por `testes/montar_app.sh` são byte a byte iguais aos do pacote da versão publicada em https://iaeduca.online/jane/.
+Resultados da versão 5.23 nesta distribuição, obtidos com `bash testes/todas.sh`, `bash testes/pos.sh` e `bash testes/tudo.sh` em 26/11/2026. A 5.21 mudou só a aparência, a 5.22 o texto de três fichas e a 5.23 o texto de doze fichas, cinco fichas novas e a busca; os números das baterias são os mesmos da 5.20. Os arquivos de `app/` gerados por `testes/montar_app.sh` são byte a byte iguais aos do pacote da versão publicada em https://iaeduca.online/jane/.
 
 ## Método
 
@@ -8,7 +8,7 @@ Cada bateria foi escrita e congelada (hash SHA-256 em `congelado/`) **antes** da
 
 ## Resultados
 
-| Bateria | O que testa | Antes da correção | 5.22 |
+| Bateria | O que testa | Antes da correção | 5.23 |
 |---|---|---|---|
 | w38 | aliciamento em outras palavras | 15/38 (5.19) | 38/38 |
 | v56 | violência, fome e negligência em casa | 18/56 (5.18) | 56/56 |
@@ -26,7 +26,7 @@ Cada bateria foi escrita e congelada (hash SHA-256 em `congelado/`) **antes** da
 | p48 | pós-graduação | | 46/48 * |
 | q42, n46, a62, h16 | baterias antigas, todos os perfis | | 42/42, 46/46, 61/62, 16/16 |
 | linha de apoio | respostas sem saída trazem CVV e Disque 100 | | 10/10 |
-| coerência interna | cada ficha achada pela própria pergunta-exemplo | | 349/352 |
+| coerência interna | cada ficha achada pela própria pergunta-exemplo | | 354/357 |
 | tela (`ui.cjs`, `ui2.cjs`) | percurso, Voltar/Avançar, caixa, celular de 360 px | | sem falha |
 
 \* Mudança de gabarito por decisão: x44 G01 a G04 pediam o aviso "em breve" para gestor e família, que hoje têm perfil próprio; p48 P45 e P46 pediam o aviso de perfil inativo e hoje apontam os perfis de professor e de responsável.

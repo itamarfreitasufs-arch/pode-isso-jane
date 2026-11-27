@@ -264,3 +264,8 @@ footer{padding-top:12px}
  body:not(:has(#more:not([hidden]))):not(:has(#results>*)):not(:has(#legal-results>*)):not(:has(#care:not([hidden]))) main{justify-content:center;padding-bottom:6vh}
 }
 @media(max-width:420px){#query::placeholder{font-size:.86rem}.consulta .search-row button{padding:10px 12px}}
+
+/* v5.23: "Nenhuma destas" na lista de fichas sugeridas pela busca. */
+.examples button.nenhuma-destas{color:var(--tinta-suave);font-style:italic}
+.examples button.nenhuma-destas::after{content:''}
+#legal-results p.nenhuma{color:var(--tinta-suave)}
