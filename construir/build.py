@@ -76,6 +76,12 @@ sits = sit_bas.aplicar(sits)
 sits = sit_prof.aplicar(sits)
 # Perfis de gestor escolar e de pai, mãe ou responsável.
 sits = sit_fa.aplicar(sits)
+# v5.22: ficha das entrevistas do TCC e irmãs com veredito "Não" inequívoco.
+import sit_v522
+for id_, campos in sit_v522.AJUSTES.items():
+    alvo = [s for s in sits if s['id'] == id_]
+    assert len(alvo) == 1, id_
+    alvo[0].update(campos)
 todos_ids = {s['id'] for s in sits}; todos_nucleos = {s['nucleo'] for s in sits}
 sits = [dict(s, perfis=[p for p in s['perfis'] if p in ATIVOS]) for s in sits if any(p in ATIVOS for p in s['perfis'])]
 # Dispositivos fora do corpo da resolução: verbetes do Glossário (Anexo I) e o Guia de Risco (Anexo II).

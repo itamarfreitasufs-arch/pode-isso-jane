@@ -1,6 +1,6 @@
 # Avaliação
 
-Resultados da versão 5.21 nesta distribuição, obtidos com `bash testes/todas.sh`, `bash testes/pos.sh` e `bash testes/tudo.sh` em 26/11/2026. A 5.21 mudou só a aparência; os números são os mesmos da 5.20. Os arquivos de `app/` gerados por `testes/montar_app.sh` são byte a byte iguais aos do pacote da versão publicada em https://iaeduca.online/jane/.
+Resultados da versão 5.22 nesta distribuição, obtidos com `bash testes/todas.sh`, `bash testes/pos.sh` e `bash testes/tudo.sh` em 26/11/2026. A 5.21 mudou só a aparência e a 5.22 só o texto de três fichas; os números são os mesmos da 5.20. Os arquivos de `app/` gerados por `testes/montar_app.sh` são byte a byte iguais aos do pacote da versão publicada em https://iaeduca.online/jane/.
 
 ## Método
 
@@ -8,7 +8,7 @@ Cada bateria foi escrita e congelada (hash SHA-256 em `congelado/`) **antes** da
 
 ## Resultados
 
-| Bateria | O que testa | Antes da correção | 5.21 |
+| Bateria | O que testa | Antes da correção | 5.22 |
 |---|---|---|---|
 | w38 | aliciamento em outras palavras | 15/38 (5.19) | 38/38 |
 | v56 | violência, fome e negligência em casa | 18/56 (5.18) | 56/56 |

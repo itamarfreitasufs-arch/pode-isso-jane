@@ -1,4 +1,4 @@
-# Histórico detalhado das versões 5.9 a 5.21
+# Histórico detalhado das versões 5.9 a 5.22
 
 Notas de trabalho escritas a cada versão, na ordem em que foram registradas. O resumo, da mais nova para a mais antiga, está em `CHANGELOG.md`. Nomes de pasta antigos: `dist_pos/` é hoje `app/`; os scripts de `publicar/` (envio ao servidor e remendos `c5xx.py`, já aplicados às fontes) não fazem parte desta distribuição, exceto `ui.cjs`, `ui2.cjs` e `todas.sh` (agora em `testes/`) e os geradores de bateria (agora em `congelado/geradores/`).
 
@@ -162,3 +162,6 @@ Publicada em 26/11/2026, 13h16 de Brasília. Remendo em `publicar/c520.py`; bate
 
 ## v5.21 (26/11/2026): acabamento visual
 Só mudaram index.html, estilo.css e app.js (em dist/ e app/) (o "·" da linha de apoio virou span.sep). Nenhum texto de ficha, de acolhimento nem o fluxo. Título numa linha no celular; linha de cima sem ponto solto; perfil em destaque e consulta à norma secundária; assuntos sem quebra no meio da palavra; rótulo "Escolha a situação" e seta alinhada; veredito mais largo no celular; rodapé sem vãos nem "·" no fim da linha; cores dos cartões contidas para telas de cores vivas; serifa com Noto Serif no Android; tela inicial centrada em tela grande. Baterias de testes/todas.sh com saída idêntica à v5.20.
+
+## v5.22 (27/11/2026): ficha das entrevistas do TCC
+No teste dos alunos (26/11), só 4 de 13 entenderam "não pode" na ficha gr_dados. Ela e as irmãs pos_dados e ps_dados_pesquisa passam a cartão vermelho ("Não"), com "Não." na primeira linha e a saída legítima (ferramenta da instituição, projeto e termo, anonimização) só no "O que fazer". Textos em construir/sit_v522.py, aplicados no fim de build.py. Só mudou o banco (app/norma.sqlite) (3 linhas de situacao). Baterias de testes/todas.sh idênticas à v5.21.

@@ -1,6 +1,6 @@
 # Pode isso, Jane? | IA na educação segundo a Resolução CNE/CP nº 1/2026
 
-Aplicativo de **Itamar Freitas**, versão **5.21**, de 26 de novembro de 2026, preparado com assistência de IA.
+Aplicativo de **Itamar Freitas**, versão **5.22**, de 26 de novembro de 2026, preparado com assistência de IA.
 
 O Jane responde a dúvidas práticas sobre o uso de inteligência artificial na escola e na universidade, com base na [Resolução CNE/CP nº 1, de 11 de novembro de 2026](https://www.in.gov.br/web/dou/-/resolucao-cne/cp-n-1-de-11-de-novembro-de-2026-744136563). A pessoa escolhe o perfil, o assunto e a situação, ou escreve a dúvida, e recebe uma ficha com o que a norma permite, exige ou proíbe, sempre com o artigo que fundamenta a resposta.
 

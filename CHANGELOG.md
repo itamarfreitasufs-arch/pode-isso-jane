@@ -2,6 +2,9 @@
 
 Resumo, da mais nova para a mais antiga. As notas completas de cada versão, com as baterias e os critérios, estão em [docs/historico_detalhado.md](docs/historico_detalhado.md).
 
+## 5.22 (27/11/2026)
+- Correção vinda do teste com alunos de graduação (26/11): só 4 de 13 entenderam "não pode" na ficha das entrevistas do TCC (`gr_dados`). Ela e as irmãs da pós (`pos_dados`) e do professor (`ps_dados_pesquisa`) passam ao veredito "Não", com "Não." na primeira linha e a saída legítima (ferramenta da instituição, projeto e termo, anonimização) só em "O que fazer". Textos em `construir/sit_v522.py`, aplicados no fim de `build.py`. Só o banco mudou; baterias idênticas às da 5.21.
+
 ## 5.21 (26/11/2026)
 - Acabamento visual, sem mudança de fichas, textos de acolhimento ou fluxo: título numa linha no celular; perfil em destaque e consulta à norma como secundária; assuntos sem quebra no meio da palavra; rótulo "Escolha a situação"; veredito mais largo no celular; rodapé e linha de apoio sem "·" solto no fim da linha; cores dos cartões contidas em telas de cores vivas; serifa Noto Serif no Android; tela inicial centrada em tela grande. Baterias com resultados idênticos aos da 5.20.
 
